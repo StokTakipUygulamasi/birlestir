@@ -1,0 +1,412 @@
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\audios\popupAudio.wav
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\StokTakipUygulamasi.exe.config
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\StokTakipUygulamasi.exe
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\StokTakipUygulamasi.pdb
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\Google.Protobuf.dll
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\MySql.Data.dll
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\Renci.SshNet.dll
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\System.Buffers.dll
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\System.Memory.dll
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\Zstandard.Net.dll
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\Google.Protobuf.xml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\MySql.Data.xml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\Renci.SshNet.xml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\System.Buffers.xml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\System.Memory.xml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi.csprojAssemblyReference.cache
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\MusteriEkle.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\Anasayfa.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\BilgiEkrani.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\IndirimdekilereEkle.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\IndirimdekilerGuncelle.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\mainwindow.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\SiparisGuncelle.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\SiparisUrunEkle.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\UrunEkle.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\UrunGuncelle.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\VeresiyeDetay.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\SatisYap.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucIndirimdekiler.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucSiparisler.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucUrunler.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucAnasayfa.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucVeresiyeler.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\App.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi_Content.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi_MarkupCompile.cache
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi_MarkupCompile.lref
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\App.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\MusteriEkle.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\Anasayfa.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\BilgiEkrani.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\IndirimdekilereEkle.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\IndirimdekilerGuncelle.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\mainwindow.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\SiparisGuncelle.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\SiparisUrunEkle.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\UrunEkle.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\UrunGuncelle.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\VeresiyeDetay.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\SatisYap.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucIndirimdekiler.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucSiparisler.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucUrunler.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucAnasayfa.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucVeresiyeler.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi.g.resources
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi.Properties.Resources.resources
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi.csproj.GenerateResource.cache
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi.csproj.CoreCompileInputs.cache
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi.csproj.CopyComplete
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi.exe
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi.pdb
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucKriitkUrunler.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucKriitkUrunler.baml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi.csprojAssemblyReference.cache
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\MusteriEkle.g.cs
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\VeresiyeBorcOdeme.g.cs
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\Anasayfa.g.cs
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\BilgiEkrani.g.cs
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\IndirimdekilereEkle.g.cs
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\IndirimdekilerGuncelle.g.cs
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\mainwindow.g.cs
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\SiparisGuncelle.g.cs
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\SiparisUrunEkle.g.cs
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\UrunEkle.g.cs
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\UrunGuncelle.g.cs
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\VeresiyeDetay.g.cs
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\SatisYap.g.cs
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucIndirimdekiler.g.cs
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucKriitkUrunler.g.cs
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucSiparisler.g.cs
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucUrunler.g.cs
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucAnasayfa.g.cs
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucVeresiyeler.g.cs
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\App.g.cs
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi_Content.g.cs
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi_MarkupCompile.cache
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi_MarkupCompile.lref
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi.exe
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi.pdb
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\audios\popupAudio.wav
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\StokTakipUygulamasi.exe.config
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\StokTakipUygulamasi.exe
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\StokTakipUygulamasi.pdb
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\Google.Protobuf.dll
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\MySql.Data.dll
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\Renci.SshNet.dll
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\System.Buffers.dll
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\System.Memory.dll
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\Zstandard.Net.dll
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\Google.Protobuf.xml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\MySql.Data.xml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\Renci.SshNet.xml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\System.Buffers.xml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\System.Memory.xml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\App.baml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\MusteriEkle.baml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\VeresiyeBorcOdeme.baml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\Anasayfa.baml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\BilgiEkrani.baml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\IndirimdekilereEkle.baml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\IndirimdekilerGuncelle.baml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\mainwindow.baml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\SiparisGuncelle.baml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\SiparisUrunEkle.baml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\UrunEkle.baml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\UrunGuncelle.baml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\VeresiyeDetay.baml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\SatisYap.baml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucIndirimdekiler.baml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucKriitkUrunler.baml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucSiparisler.baml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucUrunler.baml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucAnasayfa.baml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucVeresiyeler.baml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi.g.resources
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi.Properties.Resources.resources
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi.csproj.GenerateResource.cache
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi.csproj.CoreCompileInputs.cache
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi.csproj.CopyComplete
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucToptancilar.g.cs
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucToptancilar.baml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\ToptanciEkle.g.cs
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\ToptanciEkle.baml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\ToptanciSilmePenceresi.g.cs
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\ToptanciSilmePenceresi.baml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\ToptanciGuncelle.g.cs
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\ToptanciGuncelle.baml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\SiparisSilmePenceresi.g.cs
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\SiparisSilmePenceresi.baml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\Grafik.g.cs
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\Grafik.baml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucAyarlar.g.cs
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucAyarlar.baml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\MusteriAyarlari.g.cs
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\MusteriAyarlari.baml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\MusteriGuncelleme.g.cs
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\MusteriGuncelleme.baml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\CalisanAyarlari.g.cs
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\CalisanAyarlari.baml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\CalisanEkle.g.cs
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\CalisanEkle.baml
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\CalisanGuncelleme.g.cs
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\CalisanGuncelleme.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\audios\popupAudio.wav
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\StokTakipUygulamasi.exe.config
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\StokTakipUygulamasi.exe
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\StokTakipUygulamasi.pdb
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\Google.Protobuf.dll
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\MySql.Data.dll
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\Renci.SshNet.dll
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\System.Buffers.dll
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\System.Memory.dll
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\Zstandard.Net.dll
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\Google.Protobuf.xml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\MySql.Data.xml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\Renci.SshNet.xml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\System.Buffers.xml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\System.Memory.xml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi.csprojAssemblyReference.cache
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\CalisanEkle.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\MusteriEkle.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\ToptanciEkle.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\CalisanGuncelleme.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\MusteriGuncelleme.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\ToptanciGuncelle.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\VeresiyeBorcOdeme.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\Anasayfa.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\BilgiEkrani.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\IndirimdekilereEkle.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\IndirimdekilerGuncelle.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\mainwindow.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\SiparisGuncelle.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\SiparisUrunEkle.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\UrunEkle.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\UrunGuncelle.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\CalisanAyarlari.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\Grafik.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\MusteriAyarlari.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\SiparisSilmePenceresi.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\ToptanciSilmePenceresi.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\VeresiyeDetay.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\SatisYap.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucAyarlar.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucIndirimdekiler.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucKriitkUrunler.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucSiparisler.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucToptancilar.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucUrunAlis.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucUrunler.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucAnasayfa.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucVeresiyeler.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\App.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi_Content.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi_MarkupCompile.cache
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi_MarkupCompile.lref
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\App.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\CalisanEkle.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\MusteriEkle.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\ToptanciEkle.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\CalisanGuncelleme.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\MusteriGuncelleme.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\ToptanciGuncelle.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\VeresiyeBorcOdeme.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\Anasayfa.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\BilgiEkrani.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\IndirimdekilereEkle.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\IndirimdekilerGuncelle.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\mainwindow.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\SiparisGuncelle.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\SiparisUrunEkle.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\UrunEkle.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\UrunGuncelle.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\CalisanAyarlari.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\Grafik.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\MusteriAyarlari.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\SiparisSilmePenceresi.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\ToptanciSilmePenceresi.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\VeresiyeDetay.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\SatisYap.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucAyarlar.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucIndirimdekiler.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucKriitkUrunler.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucSiparisler.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucToptancilar.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucUrunler.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucAnasayfa.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucVeresiyeler.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucUrunAlis.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi.g.resources
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi.Properties.Resources.resources
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi.csproj.GenerateResource.cache
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi.csproj.CoreCompileInputs.cache
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi.csproj.CopyComplete
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi.exe
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi.pdb
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\audios\popupAudio.wav
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\StokTakipUygulamasi.exe.config
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\StokTakipUygulamasi.exe
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\StokTakipUygulamasi.pdb
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\Google.Protobuf.dll
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\MySql.Data.dll
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\Renci.SshNet.dll
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\System.Buffers.dll
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\System.Memory.dll
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\Zstandard.Net.dll
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\Google.Protobuf.xml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\MySql.Data.xml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\Renci.SshNet.xml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\System.Buffers.xml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\System.Memory.xml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi.csprojAssemblyReference.cache
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\CalisanEkle.g.cs
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\MusteriEkle.g.cs
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\ToptanciEkle.g.cs
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\CalisanGuncelleme.g.cs
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\MusteriGuncelleme.g.cs
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\ToptanciGuncelle.g.cs
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\VeresiyeBorcOdeme.g.cs
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\Anasayfa.g.cs
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\BilgiEkrani.g.cs
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\IndirimdekilereEkle.g.cs
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\IndirimdekilerGuncelle.g.cs
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\mainwindow.g.cs
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\SiparisGuncelle.g.cs
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\SiparisUrunEkle.g.cs
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\UrunEkle.g.cs
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\UrunGuncelle.g.cs
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\CalisanAyarlari.g.cs
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\Grafik.g.cs
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\MusteriAyarlari.g.cs
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\SiparisSilmePenceresi.g.cs
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\ToptanciSilmePenceresi.g.cs
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\VeresiyeDetay.g.cs
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\SatisYap.g.cs
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucAyarlar.g.cs
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucIndirimdekiler.g.cs
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucKriitkUrunler.g.cs
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucSiparisler.g.cs
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucToptancilar.g.cs
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucUrunAlis.g.cs
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucUrunler.g.cs
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucAnasayfa.g.cs
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucVeresiyeler.g.cs
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\App.g.cs
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi_Content.g.cs
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi_MarkupCompile.cache
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi_MarkupCompile.lref
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\App.baml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\CalisanEkle.baml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\MusteriEkle.baml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\ToptanciEkle.baml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\CalisanGuncelleme.baml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\MusteriGuncelleme.baml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\ToptanciGuncelle.baml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\VeresiyeBorcOdeme.baml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\Anasayfa.baml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\BilgiEkrani.baml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\IndirimdekilereEkle.baml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\IndirimdekilerGuncelle.baml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\mainwindow.baml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\SiparisGuncelle.baml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\SiparisUrunEkle.baml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\UrunEkle.baml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\UrunGuncelle.baml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\CalisanAyarlari.baml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\Grafik.baml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\MusteriAyarlari.baml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\SiparisSilmePenceresi.baml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\ToptanciSilmePenceresi.baml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\VeresiyeDetay.baml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\SatisYap.baml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucAyarlar.baml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucIndirimdekiler.baml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucKriitkUrunler.baml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucSiparisler.baml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucToptancilar.baml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucUrunAlis.baml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucUrunler.baml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucAnasayfa.baml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucVeresiyeler.baml
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi.g.resources
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi.Properties.Resources.resources
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi.csproj.GenerateResource.cache
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi.csproj.CoreCompileInputs.cache
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi.csproj.CopyComplete
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi.exe
+C:\Users\UmitCanSU\Desktop\Yeni klasör (2)\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\StokTakipUygulamasi.pdb
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\CalisanEkle.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\ToptanciEkle.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\CalisanGuncelleme.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\MusteriGuncelleme.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\ToptanciGuncelle.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\VeresiyeBorcOdeme.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\CalisanAyarlari.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\Grafik.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\MusteriAyarlari.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\SiparisSilmePenceresi.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\ToptanciSilmePenceresi.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucAyarlar.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucToptancilar.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucUrunAlis.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\CalisanEkle.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Eklemeler\ToptanciEkle.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\CalisanGuncelleme.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\MusteriGuncelleme.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\ToptanciGuncelle.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Guncellemeler\VeresiyeBorcOdeme.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\CalisanAyarlari.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\Grafik.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\MusteriAyarlari.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\SiparisSilmePenceresi.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\ToptanciSilmePenceresi.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucAyarlar.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucToptancilar.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucUrunAlis.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucUrunSatis.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\UserController\ucUrunSatis.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\MusteriSec.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\Pencereler\MusteriSec.baml
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\iadeUrunler.g.cs
+C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\iadeUrunler.baml

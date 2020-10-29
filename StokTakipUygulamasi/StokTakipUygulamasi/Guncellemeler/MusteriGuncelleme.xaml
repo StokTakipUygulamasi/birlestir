@@ -1,0 +1,108 @@
+﻿<Window x:Class="StokTakipUygulamasi.Guncellemeler.MusteriGuncelleme"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StokTakipUygulamasi.Guncellemeler"
+        mc:Ignorable="d"
+        Title="MusteriGuncelleme" Height="450" Width="900" Background="{x:Null}" AllowsTransparency="True" WindowStyle="None" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Canvas>
+
+            <Image Source="/images/icons/urunEkle.png" Canvas.Left="90" Height="58" Canvas.Top="41" Width="54" Panel.ZIndex="3
+                   "/>
+            <Label Content="MÜŞTERİ GÜNCELLEME PENCERESİ" FontWeight="Bold" FontSize="18" Canvas.Left="173" Canvas.Top="23" Panel.ZIndex="3" Foreground="#FFF6EDED" Height="35" VerticalAlignment="Center" HorizontalAlignment="Center" Style="{DynamicResource Label_yanip_sonme_efekti}"/>
+            <!--İçindeki nesneleri sürükleyebiliyoruz-->
+            <Rectangle Height="35" Width="711" Canvas.Left="103" Canvas.Top="23" Fill="#FF134187" Panel.ZIndex="1"/>
+            <Ellipse Height="118" Width="115" Canvas.Left="58" Canvas.Top="10" Panel.ZIndex="2" StrokeThickness="4" RenderTransformOrigin="0.5,0.5" Style="{DynamicResource donme_efekti}">
+                <Ellipse.RenderTransform>
+                    <RotateTransform/>
+                </Ellipse.RenderTransform>
+                <Ellipse.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF134187" Offset="0.997"/>
+                        <GradientStop Color="#FFFCFCFC" Offset="0.89"/>
+                        <GradientStop Color="#FFF0F2F6" Offset="0.913"/>
+                        <GradientStop Color="#FF90A5C6" Offset="0.957"/>
+                    </LinearGradientBrush>
+                </Ellipse.Fill>
+                <Ellipse.Stroke>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF134187" Offset="0"/>
+                        <GradientStop Color="White" Offset="0.713"/>
+                        <GradientStop Color="#FF4B6EA3" Offset="0.93"/>
+                        <GradientStop Color="White" Offset="0.35"/>
+                    </LinearGradientBrush>
+                </Ellipse.Stroke>
+            </Ellipse>
+
+            <Border Width="711" Height="378" Canvas.Left="103" Canvas.Top="23" CornerRadius="0,0,50,50" Background="#FFE0E0E0">
+                <Border.Effect>
+                    <DropShadowEffect Opacity="0.35" Direction="275"/>
+                </Border.Effect>
+
+            </Border>
+
+            <!--Textbox ve label'lar-->
+            <Label Content="Müşteri Adı: *" Canvas.Left="200" Canvas.Top="103" FontWeight="Bold"/>
+            <TextBox MaxLength="255" Width="147" Height="24" Canvas.Left="306" Canvas.Top="103" x:Name="txtMusteriAdi" FontSize="18" Style="{DynamicResource MouseOverImageChange_Textbox}"/>
+
+
+            <Label Content="Müşteri Soyadı: *" Canvas.Left="200" Canvas.Top="134" FontWeight="Bold"/>
+            <TextBox MaxLength="255" Width="147" Canvas.Left="306" Canvas.Top="134" Height="25" x:Name="txtMusteriSoyadi" FontSize="18" Style="{DynamicResource MouseOverImageChange_Textbox}"/>
+
+            <Label Content="Vergi Dairesi: " Canvas.Left="200" Canvas.Top="164" FontWeight="Bold"/>
+            <TextBox MaxLength="255" x:Name="txtMusteriVergiNumarasi" Canvas.Left="306" FontSize="18" Canvas.Top="196" Width="147" Height="25" Style="{DynamicResource MouseOverImageChange_Textbox}"/>
+
+
+
+            <Label Content="Vergi Numarası:" Canvas.Left="200" Canvas.Top="194" FontWeight="Bold"/>
+            <TextBox MaxLength="255" Canvas.Left="306" Canvas.Top="165" Width="147" Height="25" x:Name="txtMusteriVergiDairesi" FontSize="18" Style="{DynamicResource MouseOverImageChange_Textbox}"/>
+
+            <Label Content="Müşteri Grubu:" Canvas.Left="508" Canvas.Top="97" FontWeight="Bold"/>
+            <ComboBox Width="150" Height="25" Canvas.Left="618" Canvas.Top="97" x:Name="cmb_MusteriGrubu"></ComboBox>
+
+            <Label Content="E-mail:" Canvas.Left="556" Canvas.Top="248" FontWeight="Bold"/>
+            <TextBox MaxLength="255" Width="147" Height="26" Canvas.Left="618" Canvas.Top="248" x:Name="txtMusteriEmail" FontSize="18" Style="{DynamicResource MouseOverImageChange_Textbox}"/>
+
+
+
+            <Label Content="Adres:" Canvas.Left="242" Canvas.Top="230" FontWeight="Bold"/>
+            <TextBox FontSize="18" TextWrapping="Wrap" MaxLength="255" x:Name="txtMusteriAdres" Width="147" Canvas.Left="306" Canvas.Top="226" Height="102" Style="{DynamicResource MouseOverImageChange_Textbox}"/>
+
+            <Label Content="İş Telefonu:" Canvas.Left="529" Canvas.Top="134" FontWeight="Bold"/>
+            <TextBox MaxLength="10" Width="150" Height="25" Canvas.Left="618" Canvas.Top="138" x:Name="txtIsTel" FontSize="18" Style="{DynamicResource MouseOverImageChange_Textbox}"/>
+
+            <Label FontWeight="Bold" Content="Cep Telefonu: *" Canvas.Left="518" Canvas.Top="173"/>
+            <TextBox FontSize="18" Width="150" Canvas.Left="618" Canvas.Top="173" Height="25" x:Name="txtCepTel" Style="{DynamicResource MouseOverImageChange_Textbox}"/>
+
+            <Label FontWeight="Bold" Content="Fax Numarası:" Canvas.Left="518" Canvas.Top="207" />
+            <TextBox MaxLength="10" FontSize="18" x:Name="txtFaxNo" Width="150" Height="25" Canvas.Left="618" Canvas.Top="208" Style="{DynamicResource MouseOverImageChange_Textbox}"/>
+
+
+            <Button Style="{DynamicResource UrunEkleButonu}" Width="150" Height="39" Content="Müşteriyi Güncelle"  Canvas.Left="618" Margin="0" Canvas.Top="346" x:Name="btn_MusteriyiGuncelle" Click="btn_MusteriyiGuncelle_Click" />
+            <ToggleButton Style="{DynamicResource DaireButonbilgi}" Canvas.Left="757" Canvas.Top="17" Panel.ZIndex="3" x:Name="btn_Bilgi" Click="btn_Bilgi_Click"/>
+            <Button Style="{DynamicResource DaireButonCikis}" Panel.ZIndex="3" Canvas.Left="699" Canvas.Top="17" x:Name="btnKapat" Click="btnKapat_Click" BorderBrush="#FFEAEBF4" BorderThickness="2"/>
+
+
+
+            <Grid Height="318" Width="366" Canvas.Left="710" Canvas.Top="5">
+                <Popup Placement="Center" x:Name="popup_bilgi" AllowsTransparency="True" PopupAnimation="Scroll">
+                    <Border Background="DarkBlue" Height="179" Width="225" CornerRadius="0,20,30,30">
+                        <StackPanel Margin="7">
+                            <TextBlock Text="Bilgilendirme Metni" Foreground="White" FontWeight="Bold" FontSize="22" HorizontalAlignment="Center"/>
+                            <TextBlock Text="Bilgi metni buraya gelecek&#10; İkinci satır&#10; Üçüncü satır" Foreground="white" Margin="0,10,0,0"/>
+                        </StackPanel>
+                    </Border>
+
+                </Popup>
+
+
+            </Grid>
+
+
+
+
+        </Canvas>
+    </Grid>
+</Window>
