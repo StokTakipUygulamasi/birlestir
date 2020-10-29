@@ -31,6 +31,8 @@ namespace StokTakipUygulamasi
             InitializeComponent();
             UrunAdiComBox = Genel.ComboBoxVeriCekme(UrunAdiComBox, $@"select DISTINCT Urun_Adi from urunler", "Urun_Adi");
             ToptancıAdiComBox = Genel.ComboBoxVeriCekme(ToptancıAdiComBox, $@"select Toptanci_Adi from toptancilar", "Toptanci_Adi");
+
+            txtBilgiPenceresi.Text = "Bu sayfadan bir ürüne ilişkin sipariş verebilirsiniz. [ Yanında * olanlar zorunludur. ]";
         }
 
 

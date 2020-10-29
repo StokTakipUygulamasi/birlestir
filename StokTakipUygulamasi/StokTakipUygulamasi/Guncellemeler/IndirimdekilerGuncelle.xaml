@@ -9,7 +9,7 @@
     <Grid>
         <Canvas>
 
-            <Image Source="/images/icons/urunEkle.png" Canvas.Left="90" Height="58" Canvas.Top="41" Width="54" Panel.ZIndex="3
+            <Image Source="/images/icons/guncelle.png" Canvas.Left="90" Height="58" Canvas.Top="41" Width="54" Panel.ZIndex="3
                    "/>
             <Label Content="İNDİRİM GÜNCELLEME PENCERESİ" FontWeight="Bold" FontSize="18" Canvas.Left="173" Canvas.Top="23" Panel.ZIndex="3" Foreground="#FFF6EDED" Height="35" VerticalAlignment="Center" HorizontalAlignment="Center" Style="{DynamicResource Label_yanip_sonme_efekti}"/>
             <!--İçindeki nesneleri sürükleyebiliyoruz-->
@@ -87,7 +87,7 @@
                     <Border Background="DarkBlue" Height="179" Width="225" CornerRadius="0,20,30,30">
                         <StackPanel Margin="7">
                             <TextBlock Text="Bilgilendirme Metni" Foreground="White" FontWeight="Bold" FontSize="22" HorizontalAlignment="Center"/>
-                            <TextBlock Text="Bilgi metni buraya gelecek&#10; İkinci satır&#10; Üçüncü satır" Foreground="white" Margin="0,10,0,0"/>
+                            <TextBlock x:Name="txtBilgiPenceresi" TextWrapping="Wrap" Foreground="white" Margin="0,10,0,0"/>
                         </StackPanel>
                     </Border>
 

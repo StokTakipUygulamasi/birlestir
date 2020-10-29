@@ -27,7 +27,12 @@ namespace StokTakipUygulamasi.Pencereler
         {
             InitializeComponent();
             this.grid = gelen_grid;
-            veri.ToptanciID = toptanciID;   
+            veri.ToptanciID = toptanciID;
+
+            string toptanciAdiSorgu = $"Select * from toptancilar where ID='{toptanciID}'";
+            string toptanciAdi = Genel.tekilVeriCekmeString(toptanciAdiSorgu,"Toptanci_Adi");
+
+            txtBilgiPenceresi.Text = $"Bu sayfadan {toptanciAdi} isimli toptancıyı silebilirsiniz.";
         }
 
         private void btn_Bilgi_Click(object sender, RoutedEventArgs e)

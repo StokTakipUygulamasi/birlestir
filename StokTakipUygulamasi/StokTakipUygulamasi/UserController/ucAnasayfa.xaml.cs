@@ -17,6 +17,9 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Threading;
 using MySql.Data.MySqlClient;
+using MySqlX.XDevAPI;
+using Org.BouncyCastle.Crypto.Tls;
+using StokTakipUygulamasi.Class.Parametreler;
 
 namespace StokTakipUygulamasi.UserController
 {
@@ -32,8 +35,20 @@ namespace StokTakipUygulamasi.UserController
         {
             InitializeComponent();
             Genel.calisanlari_cek(dtg_calisanlar);
-            lblBilgisayar.Content = "Bilgisayar: " + Dns.GetHostName();
-            lblIP.Content = "IP: "+Dns.GetHostAddresses(Dns.GetHostName())[1];
+
+            if (Genel.listedeArama(Prm.oturumCalisanAltYetkiListesi, "1") == false)
+            {
+                btnCirolar.Visibility = Visibility.Collapsed;
+            }
+
+            if (Genel.listedeArama(Prm.oturumCalisanAltYetkiListesi, "3") == false)
+            {
+                stackpanel_calisanlar.Visibility = Visibility.Collapsed;
+            }
+
+
+            
+
         }
 
 

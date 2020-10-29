@@ -10,12 +10,35 @@ namespace StokTakipUygulamasi.Class.Parametreler
 {
     public class Prm
     {
+        #region OturumIslemleri
+     
+            public static string oturumCalisanID;
+            public static string oturumCalisanNo;
+            public static string oturumCalisanAd;
+            public static string oturumCalisanSoyad;
+            public static string oturumCalisanTC;
+            public static string oturumCalisanKadi;
+            public static string oturumCalisanSifre;
+            public static string oturumCalisanFoto;
+            public static string oturumCalisanAdres;
+            public static string oturumCalisanGirisIP;
+            public static string oturumCalisanGirisIPv6;
+            public static string oturumSilindiMi;
+            public static string oturumCalisanSilinmeAciklamasi;
+            public static string oturumCalisanBilgileriID;
+            public static string oturumCalisanTel;
+            public static string oturumCalisanEmail;
+            public static string oturumCalisanDepartmanID;
+            public static List<string> oturumCalisanAltYetkiListesi;
+    
+        #endregion
 
         #region Static Parametreler
         public static sbyte Hata;
         public static string BilgiMesajiAlani;
         public static string BelgelerimYolu = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments).ToString();
         public static string ResimAdi;
+        public static string DosyaAdi;
         public static string BarkodNo;
         public static string grd_UrunlerListesi;
         public static bool checkbox_Satista_Olanlar;
@@ -24,6 +47,7 @@ namespace StokTakipUygulamasi.Class.Parametreler
         public static bool checkbox_eski_toptancilari_getir;
         public static bool checkbox_silinen_musteriler;
         public static bool checkbox_silinen_calisanlar;
+        public static bool checkbox_silinen_olcu_birimleri;
         #endregion
 
 
@@ -33,6 +57,7 @@ namespace StokTakipUygulamasi.Class.Parametreler
         private int _ToptanciID;
         private int _CalisanID;
         private int _faturaID;
+
 
         private string _ID;  // Ürün Id olarak kullanıyoruz.
         private string _urunAdi;
@@ -81,7 +106,6 @@ namespace StokTakipUygulamasi.Class.Parametreler
 
         //Siparis Güncelleme
         private int _urun_ID;
-        private int _siparis_ID;
         private DateTime _siparisTarihi;
         private int _siparis_Adeti;
         private bool _siparis_Iptal;
@@ -100,7 +124,7 @@ namespace StokTakipUygulamasi.Class.Parametreler
         private string _musteriIstel;
         private string _musteriCepTel;
         private int _musteriGrubuID;
-        private Nullable<int> _musteriID;
+        private int _musteriID;
 
 
         // Çalışanlar
@@ -118,26 +142,26 @@ namespace StokTakipUygulamasi.Class.Parametreler
         private string _calisanTC;
 
 
+        // Departmanlar
+        private string _departmanID;
+        private string _departmanKodu;
+        private string _departmanAdi;
+        private List<string> _departmanAltyetkiler;
+
         //StokAdet
         private int _stok_ID;
         private int _stok_Eldeki_Miktar;
-       
         private int _stok_Toplam_Giris;
         private int _stok_Toplam_Cikis;
 
-        //Urun Alis
-        private DateTime _urun_alis_Tarihi;
-        private int _urun_alis_Fiyat;
 
-        //Fatura 
-        private string _faturaNo;
+        // Teknik Destek Mail Gönderme Alanı
+        private string _teknikDestekMailGonderen;
+        private string _teknikDestekMailKonusu;
+        private string _teknikDestekMailCepTel;
+        private string _teknikDestekMailIcerik;
+        private string _teknikDestekMailDosya;
 
-        //Urun İade;
-        private string _iade_Sebei;
-        private int _iade_Adet;
-        private DateTime _iade_Tarihi;
-
-        
 
         // Gelen değerlerin hepsinin baş harfini büyük yaptık. (CultureInfo ile)
         public string UrunAdi { get => _urunAdi; set => _urunAdi = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(value); }
@@ -152,6 +176,7 @@ namespace StokTakipUygulamasi.Class.Parametreler
         public Nullable<int> Olcu_Miktar { get => _olcu_miktar; set => _olcu_miktar = value; }
         public string Olcu_Birimi { get => _olcu_Birimi; set => _olcu_Birimi = value; }
         public string ID { get => _ID; set => _ID = value; }
+
         public string Indirim_ID { get => _indirim_ID; set => _indirim_ID = value; }
         public DateTime IndirimBaslangicTarihi { get => _IndirimBaslangicTarihi; set => _IndirimBaslangicTarihi = value; }
         public DateTime IndirimBitisTarihi { get => _IndirimBitisTarihi; set => _IndirimBitisTarihi = value; }
@@ -171,7 +196,7 @@ namespace StokTakipUygulamasi.Class.Parametreler
         public bool SiparisIptal { get => _siparis_Iptal; set => _siparis_Iptal = value; }
         public string SiparisIptalAciklama { get => _siparis_Iptal_Aciklama; set => _siparis_Iptal_Aciklama = value; }
        
-        
+
         public int Stok_ID { get => _stok_ID; set => _stok_ID = value; }
         public int Stok_EldekiMiktar { get => _stok_Eldeki_Miktar; set => _stok_Eldeki_Miktar = value; }
         public int KritikDurum { get => _KritikDurum; set => _KritikDurum = value; }
@@ -185,7 +210,7 @@ namespace StokTakipUygulamasi.Class.Parametreler
         public string MusteriIstel { get => _musteriIstel; set => _musteriIstel = value; }
         public string MusteriCepTel { get => _musteriCepTel; set => _musteriCepTel = value; }
         public int MusteriGrubuID { get => _musteriGrubuID; set => _musteriGrubuID = value; }
-        public Nullable<int> MusteriID { get => _musteriID; set => _musteriID = value; }
+        public int MusteriID { get => _musteriID; set => _musteriID = value; }
         public string VeresiyeIslemTarihi { get => _veresiyeIslemTarihi; set => _veresiyeIslemTarihi = value; }
         public int HesapTuruID { get => _hesapTuruID; set => _hesapTuruID = value; }
         public string VeresiyeParaTuru { get => _veresiyeParaTuru; set => _veresiyeParaTuru = value; }
@@ -219,11 +244,19 @@ namespace StokTakipUygulamasi.Class.Parametreler
         public int CalisanYetkiID { get => _calisanYetkiID; set => _calisanYetkiID = value; }
         public string CalisanNo { get => _calisanNo; set => _calisanNo = value; }
         public string CalisanID1 { get => _calisanID; set => _calisanID = value; }
-        public int UrunAlisFiyat { get => _urun_alis_Fiyat; set => _urun_alis_Fiyat = value; }
-        public DateTime UrunAlisTarih { get => _urun_alis_Tarihi; set => _urun_alis_Tarihi = value; }
-        public String FaturaNo { get => _faturaNo; set => _faturaNo = value; }
-        public String IadeSebei { get => _iade_Sebei; set => _iade_Sebei = value; }
-        public int IadeAdeti { get => _iade_Adet; set => _iade_Adet = value; }
-        public DateTime IadeTarihi { get => _iade_Tarihi; set => _iade_Tarihi = value; }
+
+        // Departman
+        public string DepartmanID { get => _departmanID; set => _departmanID = value; }
+        public string DepartmanKodu { get => _departmanKodu; set => _departmanKodu = value; }
+        public string DepartmanAdi { get => _departmanAdi; set => _departmanAdi = value; }
+        public List<string> DepartmanAltyetkiler { get => _departmanAltyetkiler; set => _departmanAltyetkiler = value; }
+
+
+        // Teknik Destek
+        public string TeknikDestekMailGonderen { get => _teknikDestekMailGonderen; set => _teknikDestekMailGonderen = value; }
+        public string TeknikDestekMailKonusu { get => _teknikDestekMailKonusu; set => _teknikDestekMailKonusu = value; }
+        public string TeknikDestekMailCepTel { get => _teknikDestekMailCepTel; set => _teknikDestekMailCepTel = value; }
+        public string TeknikDestekMailIcerik { get => _teknikDestekMailIcerik; set => _teknikDestekMailIcerik = value; }
+        public string TeknikDestekMailDosya { get => _teknikDestekMailDosya; set => _teknikDestekMailDosya = value; }
     }
 }

@@ -144,24 +144,18 @@
                         </DataGridTextColumn.ElementStyle>
                     </DataGridTextColumn>
 
-                    <!--
-                    <DataGridTemplateColumn>
+           <!--
+                    <DataGridTemplateColumn Header="Secim">
                         <DataGridTemplateColumn.CellTemplate>
                             <DataTemplate>
-                                <Button   Style="{DynamicResource UrunEkleButonu}" Width="80" Height="25" x:Name="btnGuncelle" Margin="10,0,10,0"   Click="btnGuncelleClick"> Güncelle</Button>
+                                <CheckBox Width="20" Height="20"  Margin="10,0,10,0" />
                             </DataTemplate>
                         </DataGridTemplateColumn.CellTemplate>
                     </DataGridTemplateColumn>
+                    -->
 
-                    <DataGridTemplateColumn  >
-                        <DataGridTemplateColumn.CellTemplate >
-                            <DataTemplate >
-                                <Button Style="{DynamicResource UrunEkleButonu}" Width="80" Height="25"  Margin="10,0,10,0" Content="Sil"  x:Name="btnSill"   Click="btnSillClick"  ></Button>
-                            </DataTemplate>
-                        </DataGridTemplateColumn.CellTemplate>
-                    </DataGridTemplateColumn>
+                    
               
--->
 
 
 
@@ -172,7 +166,7 @@
         </Border>
         <Border Grid.Row="1">
             <DockPanel>
-                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" x:Name="stackpanel_siparisSilGuncelleGetir">
                     <!--
                     <Button Style="{DynamicResource UrunEkleButonu}" Width="90" Height="50" Content="Güncelle"  x:Name="btnGuncelle"   Margin="10,25,0,25" Click="btnGuncelleClick"  ></Button>
                     <Button Style="{DynamicResource UrunEkleButonu}" Width="90" Height="50" Content="Sil"  x:Name="btnSill"   Margin="10,25,0,25" Click="btnSillClick"  ></Button>

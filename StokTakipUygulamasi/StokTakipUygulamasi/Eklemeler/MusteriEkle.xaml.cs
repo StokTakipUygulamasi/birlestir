@@ -33,6 +33,8 @@ namespace StokTakipUygulamasi.Eklemeler
             string musteri_grubu_cekme_sorgusu = "Select * from musteri_grubu";
             Genel.ComboBoxVeriCekme(cmb_MusteriGrubu, musteri_grubu_cekme_sorgusu, "Musteri_Grubu");
             cmb_MusteriGrubu.SelectedItem = "Genel";
+
+            txtBilgiPenceresi.Text = "Bu sayfadanyeni bir müşteri ekleyebilirsiniz. [ Yanında * olanlar zorunludur. ]";
         }
 
 

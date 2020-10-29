@@ -34,6 +34,8 @@ namespace StokTakipUygulamasi.Pencereler
                 "left join musteri_bilgileri mb on m.ID = mb.Musteri_ID left join musteri_grubu mg on mg.ID = m.Musteri_Grubu_ID " +
                 "where m.Silindi_Mi = 0";
             Genel.GridiDoldurGenel(dtg_MusteriListesi,aktifMusteriler);
+
+            txtBilgiPenceresi.Text = $"Bu sayfadan müşterilere ilişkin bilgilere ulaşabilir, silinen müşterileri görebilir, müşterilerin bilgilerini güncelleyebilir, müşterileri silebilir/geri alabilir ya da yeni müşteri ekleyebilirsiniz.";
         }
         private void btnKapat_Click(object sender, RoutedEventArgs e)
         {

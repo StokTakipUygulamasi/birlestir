@@ -29,6 +29,21 @@ namespace StokTakipUygulamasi.UserController
         public ucVeresiyeler()
         {
             InitializeComponent();
+            if (Genel.listedeArama(Prm.oturumCalisanAltYetkiListesi, "25") == false)
+            {
+                dtg_VeresiyelerListesi.Visibility = Visibility.Collapsed;
+                check_Odenmis_Borclar.Visibility = Visibility.Collapsed;
+            }
+
+            if (Genel.listedeArama(Prm.oturumCalisanAltYetkiListesi, "27") == false)
+            {
+                btnGuncelle.Visibility = Visibility.Collapsed;
+            }
+
+            if (Genel.listedeArama(Prm.oturumCalisanAltYetkiListesi, "29") == false)
+            {
+                btnDetaylar.Visibility = Visibility.Collapsed;
+            }
         }
 
 

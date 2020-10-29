@@ -39,6 +39,8 @@ namespace StokTakipUygulamasi.Guncellemeler
             DataContext = this;
             Genel.SaatDakikaCombobox(cmbSaat, cmbDakika);
             cmb_IslemTuru.Text = "Nakit";
+
+            txtBilgiPenceresi.Text = $"Bu sayfadan {txtMusteriAdiSoyadi} isimli müşteriye ilişkin borç ödemesi yapabilirsiniz. [ Yanında * olanlar zorunludur. ]";
         }
 
         private void btnKapat_Click(object sender, RoutedEventArgs e)

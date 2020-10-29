@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\obj\Debug\
 StokTakipUygulamasi
 none
 false
 DEBUG;TRACE
-C:\Users\UmitCanSU\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\App.xaml
-35750414867
+C:\Users\semih\Documents\GitHub\StokTakipProgrami\StokTakipUygulamasi\StokTakipUygulamasi\App.xaml
+39-2016761346
 1-326207090
-55-1336140230
-83805492977
-Eklemeler\CalisanEkle.xaml;Eklemeler\MusteriEkle.xaml;Eklemeler\ToptanciEkle.xaml;Guncellemeler\CalisanGuncelleme.xaml;Guncellemeler\MusteriGuncelleme.xaml;Guncellemeler\ToptanciGuncelle.xaml;Guncellemeler\VeresiyeBorcOdeme.xaml;iadeUrunler.xaml;Pencereler\Anasayfa.xaml;Pencereler\BilgiEkrani.xaml;Eklemeler\IndirimdekilereEkle.xaml;Guncellemeler\IndirimdekilerGuncelle.xaml;mainwindow.xaml;Guncellemeler\SiparisGuncelle.xaml;Eklemeler\SiparisUrunEkle.xaml;Eklemeler\UrunEkle.xaml;Guncellemeler\UrunGuncelle.xaml;Pencereler\CalisanAyarlari.xaml;Pencereler\Grafik.xaml;Pencereler\MusteriAyarlari.xaml;Pencereler\MusteriSec.xaml;Pencereler\SiparisSilmePenceresi.xaml;Pencereler\ToptanciSilmePenceresi.xaml;Pencereler\VeresiyeDetay.xaml;UserController\SatisYap.xaml;UserController\ucAyarlar.xaml;UserController\ucIndirimdekiler.xaml;UserController\ucKriitkUrunler.xaml;UserController\ucSiparisler.xaml;UserController\ucToptancilar.xaml;UserController\ucUrunAlis.xaml;UserController\ucUrunler.xaml;UserController\ucAnasayfa.xaml;UserController\ucUrunSatis.xaml;UserController\ucVeresiyeler.xaml;
+59-1651469769
+83108391503
+Eklemeler\CalisanEkle.xaml;Eklemeler\DepartmanEkle.xaml;Eklemeler\MusteriEkle.xaml;Eklemeler\OlcuBirimiEkle.xaml;Eklemeler\ToptanciEkle.xaml;Guncellemeler\CalisanGuncelleme.xaml;Guncellemeler\DepartmanGuncelleme.xaml;Guncellemeler\MusteriGuncelleme.xaml;Guncellemeler\OlcuBirimiGuncelleme.xaml;Guncellemeler\ToptanciGuncelle.xaml;Guncellemeler\VeresiyeBorcOdeme.xaml;Pencereler\Anasayfa.xaml;Pencereler\BilgiEkrani.xaml;Eklemeler\IndirimdekilereEkle.xaml;Guncellemeler\IndirimdekilerGuncelle.xaml;mainwindow.xaml;Guncellemeler\SiparisGuncelle.xaml;Eklemeler\SiparisUrunEkle.xaml;Eklemeler\UrunEkle.xaml;Guncellemeler\UrunGuncelle.xaml;Pencereler\CalisanAyarlari.xaml;Pencereler\Grafik.xaml;Pencereler\hizliSatisUrunleri.xaml;Pencereler\MusteriAyarlari.xaml;Pencereler\OlcuBirimleriEkleCikar.xaml;Pencereler\SiparisSilmePenceresi.xaml;Pencereler\TeknikDestek.xaml;Pencereler\ToptanciSilmePenceresi.xaml;Pencereler\VeresiyeDetay.xaml;Pencereler\YetkiAyarlari.xaml;UserController\SatisYap.xaml;UserController\ucAyarlar.xaml;UserController\ucIndirimdekiler.xaml;UserController\ucKriitkUrunler.xaml;UserController\ucSiparisler.xaml;UserController\ucToptancilar.xaml;UserController\ucUrunler.xaml;UserController\ucAnasayfa.xaml;UserController\ucVeresiyeler.xaml;
 
 True
 

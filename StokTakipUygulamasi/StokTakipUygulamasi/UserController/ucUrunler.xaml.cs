@@ -21,17 +21,39 @@ namespace StokTakipUygulamasi.UserController
     /// </summary>
     public partial class ucUrunler : UserControl
     {
-        public static bool satistami = true;
+        int satista_mi = 1;
 
         public ucUrunler()
         {
             InitializeComponent();
+
+            if (Genel.listedeArama(Prm.oturumCalisanAltYetkiListesi, "20") == false)
+            {
+                dtg_UrunlerListesi.Visibility = Visibility.Collapsed;
+                check_Satista_Olmayanlar.Visibility = Visibility.Collapsed;
+            }
+
+            if (Genel.listedeArama(Prm.oturumCalisanAltYetkiListesi, "19") == false)
+            {
+                btnGuncelle.Visibility = Visibility.Collapsed;
+            }
+
+            if (Genel.listedeArama(Prm.oturumCalisanAltYetkiListesi, "18") == false)
+            {
+                btnSil.Visibility = Visibility.Collapsed;
+            }
+
+            if (Genel.listedeArama(Prm.oturumCalisanAltYetkiListesi, "17") == false)
+            {
+                btnUrunEkle.Visibility = Visibility.Collapsed;
+            }
+
         }
 
         Anasayfa gk = (Anasayfa)Application.Current.Windows.OfType<Window>().SingleOrDefault(x => x.IsActive); // Anasayfa sayfasını kontrol etmek için o sayfayı çağırıyoruz.
         private void btnUrunEkle_Click(object sender, RoutedEventArgs e)
         {
-            UrunEkle urunEkle = new UrunEkle(dtg_UrunlerListesi,check_Satista_Olmayanlar);
+            UrunEkle urunEkle = new UrunEkle(dtg_UrunlerListesi);
             urunEkle.Owner = gk;
             urunEkle.ShowDialog();
         }
@@ -41,7 +63,7 @@ namespace StokTakipUygulamasi.UserController
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
         {
           
-            Genel.GridiDoldurGenel(dtg_UrunlerListesi,sorgu(satistami));
+            Genel.GridiDoldurGenel(dtg_UrunlerListesi,sorgu(satista_mi));
            
         }
 
@@ -63,9 +85,16 @@ namespace StokTakipUygulamasi.UserController
                 {
                     if (Urunler.UrunSil(id))
                     {
-
-                        check_Satista_Olmayanlar.IsChecked = true;
-                        Genel.GridiDoldurGenel(dtg_UrunlerListesi, sorgu(false));
+                        if (Prm.checkbox_Satista_Olanlar == false)
+                        {
+                            satista_mi = 0;
+                            Genel.GridiDoldurGenel(dtg_UrunlerListesi,sorgu(satista_mi));
+                        }
+                        else
+                        {
+                            satista_mi = 1;
+                            Genel.GridiDoldurGenel(dtg_UrunlerListesi, sorgu(satista_mi)) ;
+                        }
                         Prm.Hata = 0;
                         Prm.BilgiMesajiAlani = "Ürün Başarıyla Silindi...";
                         BilgiEkrani be = new BilgiEkrani();
@@ -86,11 +115,8 @@ namespace StokTakipUygulamasi.UserController
 
         public void check_Satista_Olmayanlar_Checked(object sender, RoutedEventArgs e)
         {
-            btnSil.IsEnabled = false;
-            btnGuncelle.IsEnabled = false;
-            btnGeriAl.Visibility = Visibility.Visible;
-            satistami = false;
-            Genel.GridiDoldurGenel(dtg_UrunlerListesi, sorgu(satistami));
+            satista_mi = 0;
+            Genel.GridiDoldurGenel(dtg_UrunlerListesi, sorgu(satista_mi));
             Prm.checkbox_Satista_Olanlar = false;
             
         }
@@ -98,12 +124,9 @@ namespace StokTakipUygulamasi.UserController
 
         public void check_Satista_Olmayanlar_Unchecked(object sender, RoutedEventArgs e)
         {
-            btnSil.IsEnabled = true;
-            btnGuncelle.IsEnabled = true;
-            btnGeriAl.Visibility = Visibility.Collapsed;
-            satistami = true;
+            satista_mi = 1;
             
-            Genel.GridiDoldurGenel(dtg_UrunlerListesi, sorgu(satistami));
+            Genel.GridiDoldurGenel(dtg_UrunlerListesi, sorgu(satista_mi));
             Prm.checkbox_Satista_Olanlar = true;
         }
 
@@ -124,50 +147,14 @@ namespace StokTakipUygulamasi.UserController
            
         }
 
-        private void btnGeriAl_Click(object sender, RoutedEventArgs e)
+        public String sorgu(int satistami)
         {
-            if (dtg_UrunlerListesi.SelectedItem == null)
-            {
-                MessageBox.Show("Lütfen geri almak istediğiniz bir ürünü seçiniz!", "Hata", MessageBoxButton.OK, MessageBoxImage.Warning);
-            }
-            else
-            {
-                MessageBoxResult result = MessageBox.Show("Ürünü geri almak istediğinize emin misiniz?", "Evet/Hayır", MessageBoxButton.YesNo, MessageBoxImage.Question);
-                if (result == MessageBoxResult.Yes)
-                {
-                    id = ((TextBlock)dtg_UrunlerListesi.Columns[0].GetCellContent(dtg_UrunlerListesi.SelectedItem)).Text;
-                    if (Urunler.UrunuGeriAl(Convert.ToInt32(id)))
-                    {
-                        check_Satista_Olmayanlar.IsChecked = false;
-                        Prm.Hata = 0;
-                        Prm.BilgiMesajiAlani = "Ürün başarıyla geri alındı...";
-                        BilgiEkrani be = new BilgiEkrani();
-                        be.Show();
-                        
-                        Genel.GridiDoldurGenel(dtg_UrunlerListesi, sorgu(true));
-                    }
-                    else
-                    {
-                        Prm.Hata = 1;
-                        Prm.BilgiMesajiAlani = "Ürün geri alınırken bir sorun oldu!";
-                        BilgiEkrani be = new BilgiEkrani();
-                        be.ShowDialog();
-                    }
-                }
-
-            }
-        }
-
-        public String sorgu(bool satistami)
-        {
-  
             string sorgu = ($@"select u.ID, u.Urun_Adi,u.Barkod_No,u.Aciklama,u.KDV_Orani,u.Kar_Orani,u.Satis_Fiyati,u.Satista_mi,
                                     ob.Olcu_Birimi,u.Olcu_Miktar, s.Eldeki_Miktar,u.Kritik_Durum
                                     from stoktakipuygulamasi.urunler u  
                                     left join stoktakipuygulamasi.olcu_birimi ob on u.Olcu_Birimi_ID = ob.ID
                                     left join stoktakipuygulamasi.stok s on s.Urun_ID = u.ID
-                                    Where u.Satista_Mi='{Convert.ToInt32(satistami)}'");
-
+                                    Where u.Satista_Mi='{satistami}'");
 
             return sorgu;
         }

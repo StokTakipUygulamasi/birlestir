@@ -73,6 +73,8 @@ namespace StokTakipUygulamasi
                 txtYuzde.Text = "";
                 txtYuzde.IsEnabled = false;
             }
+
+            txtBilgiPenceresi.Text = $"Bu sayfadan indirimdeki {txtUrunAdi} ürünün bilgilerini güncelleyebilirsiniz. [ Yanında * olanlar zorunludur. ]";
         }
 
         private void btnKapat_Click(object sender, RoutedEventArgs e)

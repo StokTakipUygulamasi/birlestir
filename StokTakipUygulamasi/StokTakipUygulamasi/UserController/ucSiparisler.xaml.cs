@@ -29,7 +29,29 @@ namespace StokTakipUygulamasi.UserController
         public ucSiparisler()
         {
             InitializeComponent();
-          
+
+            if (Genel.listedeArama(Prm.oturumCalisanAltYetkiListesi,"11") == false)
+            {
+                dtg_SiparisListesi.Visibility = Visibility.Collapsed;
+                stackpanel_siparisSilGuncelleGetir.Visibility = Visibility.Collapsed;
+            }
+
+            if (Genel.listedeArama(Prm.oturumCalisanAltYetkiListesi, "12") == false)
+            {
+                btnUrunEkle.Visibility = Visibility.Collapsed;  // Sipariş ekle'nin adı ürün ekle olarak yazılmış. Düzelmesi gerek!
+            }
+
+            if (Genel.listedeArama(Prm.oturumCalisanAltYetkiListesi, "13") == false)
+            {
+                btnGuncelle.Visibility = Visibility.Collapsed;
+            }
+
+            if (Genel.listedeArama(Prm.oturumCalisanAltYetkiListesi, "14") == false)
+            {
+                btnSill.Visibility = Visibility.Collapsed;
+            }
+
+
 
 
 

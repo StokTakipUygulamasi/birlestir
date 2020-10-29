@@ -5,82 +5,87 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:StokTakipUygulamasi.UserController"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800" Loaded="UserControl_Loaded">
+             d:DesignHeight="450" d:DesignWidth="1200" Loaded="UserControl_Loaded">
     <Grid RenderTransformOrigin="0.289,0.367">
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
-        <Label Content="ÇALIŞANLAR" Margin="180,43,535,330" Foreground="White" Panel.ZIndex="3" FontWeight="Bold"/>
-        <Label Cursor="Hand" Content="BİLGİLERİNİ GETİR" Margin="158,253,519,120" Foreground="White" Panel.ZIndex="5" FontWeight="Bold"/>
-
-
-
-        <Border CornerRadius="30" Background="#FF03257F" Width="531" Height="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="30,30,0,0">
-            <DataGrid x:Name="dtg_calisanlar" ItemsSource="{Binding}" Background="{x:Null}" BorderBrush="{x:Null}" 
+        <Canvas>
+            <StackPanel Height="347" Name="stackpanel_calisanlar" Width="508" Panel.ZIndex="10" Canvas.Left="30" Canvas.Top="43">
+                <Label Content="ÇALIŞANLAR" Foreground="Blue" HorizontalAlignment="Center" FontWeight="Bold" Margin="214,0,210,0" Height="26"/>
+                <DataGrid AlternatingRowBackground="Gray" HorizontalGridLinesBrush="Red" VerticalGridLinesBrush="Blue"  x:Name="dtg_calisanlar" ItemsSource="{Binding}" Background="{x:Null}" BorderBrush="Red" 
                       Foreground="#FF042263" IsReadOnly="True" RowHeight="30" CanUserAddRows="False" CanUserSortColumns="True" 
                       CanUserReorderColumns="False" CanUserResizeRows="False"
-                      HorizontalGridLinesBrush="#FF989B9B" VerticalGridLinesBrush="#FFBBBBBB" HeadersVisibility="Column" 
-                      AutoGenerateColumns="False" Height="200" Width="521" Margin="0,40,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">
+                      HeadersVisibility="Column" 
+                      AutoGenerateColumns="False" Height="206" Width="473" Margin="24,10,0,10" VerticalAlignment="Top" HorizontalAlignment="Left">
 
-                <DataGrid.Columns>
-
-
-                    <DataGridTextColumn Binding="{Binding Path=ID}" IsReadOnly="True" Header="ID" MaxWidth="2">
-                        <DataGridTextColumn.ElementStyle>
-                            <Style TargetType="TextBlock">
-                                <Setter Property="HorizontalAlignment" Value="Left"/>
-                                <Setter Property="VerticalAlignment" Value="Center"/>
-                                <Setter Property="Padding" Value="5"/>
-                                <Setter Property="FontSize" Value="0.1"/>
-                            </Style>
-                        </DataGridTextColumn.ElementStyle>
-
-                        <DataGridTextColumn.CellStyle>
-                            <Style TargetType="DataGridCell">
-                                <Setter Property="Background" Value="#2e61af"/>
-                                <Setter Property="BorderBrush" Value="#FF134187"/>
-                                <Setter Property="BorderThickness" Value="0,0,0,0"/>
-                                <Setter Property="Foreground" Value="White"/>
-
-                            </Style>
-                        </DataGridTextColumn.CellStyle>
-                    </DataGridTextColumn>
-
-                    <DataGridTextColumn Binding="{Binding Path=Ad}" IsReadOnly="True" Header="Adı" MinWidth="110" TextBlock.TextAlignment="Center" TextElement.FontStretch="Expanded">
-                        <DataGridTextColumn.ElementStyle>
-                            <Style TargetType="TextBlock">
-                                <Setter Property="HorizontalAlignment" Value="Left"/>
-                                <Setter Property="VerticalAlignment" Value="Center"/>
-                                <Setter Property="Padding" Value="5,0,5,0"/>
-                            </Style>
-                        </DataGridTextColumn.ElementStyle>
-                    </DataGridTextColumn>
-
-                    <DataGridTextColumn Binding="{Binding Path=Soyad}" IsReadOnly="True" Header="Soyadı" MinWidth="135" TextBlock.TextAlignment="Center" TextElement.FontStretch="Expanded">
-                        <DataGridTextColumn.ElementStyle>
-                            <Style TargetType="TextBlock">
-                                <Setter Property="HorizontalAlignment" Value="Left"/>
-                                <Setter Property="VerticalAlignment" Value="Center"/>
-                                <Setter Property="Padding" Value="5,0,5,0"/>
-                            </Style>
-                        </DataGridTextColumn.ElementStyle>
-                    </DataGridTextColumn>
-
-                    <DataGridTextColumn Binding="{Binding Path=Yetki}" IsReadOnly="True" Header="Departman" MinWidth="135" Width="180" TextBlock.TextAlignment="Center" TextElement.FontStretch="Expanded">
-                        <DataGridTextColumn.ElementStyle>
-                            <Style TargetType="TextBlock">
-                                <Setter Property="HorizontalAlignment" Value="Left"/>
-                                <Setter Property="VerticalAlignment" Value="Center"/>
-                                <Setter Property="Padding" Value="5,0,5,0"/>
-                            </Style>
-                        </DataGridTextColumn.ElementStyle>
-                    </DataGridTextColumn>
+                    <DataGrid.Columns>
 
 
-                </DataGrid.Columns>
-            </DataGrid>
-        </Border>
+                        <DataGridTextColumn Binding="{Binding ID}" IsReadOnly="True" Header="ID" MaxWidth="2">
+                            <DataGridTextColumn.ElementStyle>
+                                <Style TargetType="{x:Type TextBlock}">
+                                    <Setter Property="HorizontalAlignment" Value="Left"/>
+                                    <Setter Property="VerticalAlignment" Value="Center"/>
+                                    <Setter Property="Padding" Value="5"/>
+                                    <Setter Property="FontSize" Value="0.1"/>
+
+                                </Style>
+                            </DataGridTextColumn.ElementStyle>
+
+                            <DataGridTextColumn.CellStyle>
+                                <Style TargetType="{x:Type DataGridCell}">
+                                    <Setter Property="Background" Value="#2e61af"/>
+                                    <Setter Property="BorderBrush" Value="#FF134187"/>
+                                    <Setter Property="BorderThickness" Value="0,0,0,0"/>
+                                    <Setter Property="Foreground" Value="White"/>
+
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTextColumn Binding="{Binding Ad}"  IsReadOnly="True" Header="Adı" MinWidth="110" TextBlock.TextAlignment="Center" TextElement.FontStretch="Expanded">
+                            <DataGridTextColumn.ElementStyle>
+                                <Style TargetType="{x:Type TextBlock}">
+                                    <Setter Property="HorizontalAlignment" Value="Left"/>
+                                    <Setter Property="VerticalAlignment" Value="Center"/>
+                                    <Setter Property="Padding" Value="5,0,5,0"/>
+                                </Style>
+                            </DataGridTextColumn.ElementStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTextColumn Binding="{Binding Soyad}" IsReadOnly="True" Header="Soyadı" MinWidth="135" TextBlock.TextAlignment="Center" TextElement.FontStretch="Expanded">
+                            <DataGridTextColumn.ElementStyle>
+                                <Style TargetType="{x:Type TextBlock}">
+                                    <Setter Property="HorizontalAlignment" Value="Left"/>
+                                    <Setter Property="VerticalAlignment" Value="Center"/>
+                                    <Setter Property="Padding" Value="5,0,5,0"/>
+                                </Style>
+                            </DataGridTextColumn.ElementStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTextColumn Binding="{Binding Yetki}" IsReadOnly="True" Header="Departman" MinWidth="135" Width="180" TextBlock.TextAlignment="Center" TextElement.FontStretch="Expanded">
+                            <DataGridTextColumn.ElementStyle>
+                                <Style TargetType="{x:Type TextBlock}">
+                                    <Setter Property="HorizontalAlignment" Value="Left"/>
+                                    <Setter Property="VerticalAlignment" Value="Center"/>
+                                    <Setter Property="Padding" Value="5,0,5,0"/>
+                                </Style>
+                            </DataGridTextColumn.ElementStyle>
+                        </DataGridTextColumn>
+
+
+                    </DataGrid.Columns>
+                </DataGrid>
+
+                <Label Cursor="Hand" Content="BİLGİLERİNİ GETİR" HorizontalAlignment="Center" Foreground="Blue" Panel.ZIndex="5" FontWeight="Bold"/>
+            </StackPanel>
+        </Canvas>
+
+
+
+
 
 
 
@@ -95,13 +100,10 @@
 
         <Border Background="White" Grid.Row="1">
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                <ToggleButton Style="{DynamicResource ucAnasayfabutonlar}" Content="Yetki Düzenleme" Width="150" Height="40"/>
-                <ToggleButton Style="{DynamicResource ucAnasayfabutonlar}" Content="Cirolar" Width="150" Height="40"/>
-                <ToggleButton Style="{DynamicResource ucAnasayfabutonlar}" Content="Çalışan Ekle" Width="150" Height="40"/>
+                <ToggleButton x:Name="btnCirolar" Style="{DynamicResource ucAnasayfabutonlar}" Content="Cirolar" Width="150" Height="40"/>
             </StackPanel>
         </Border>
-        <Label x:Name="lblIP" Width="250" Height="35" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="451,113,0,0"/>
-        <Label x:Name="lblBilgisayar" Width="250" Height="35" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="451,174,0,0"/>
+
 
 
 

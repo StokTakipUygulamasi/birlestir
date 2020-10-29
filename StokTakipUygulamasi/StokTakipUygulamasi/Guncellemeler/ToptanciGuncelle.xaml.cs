@@ -37,6 +37,8 @@ namespace StokTakipUygulamasi.Guncellemeler
             txtIsTel.Text = toptanciBilgileri[5];
             txtFaxNo.Text = toptanciBilgileri[6];
 
+            txtBilgiPenceresi.Text = $"Bu sayfadan {txtToptanciAdi} isimli toptancının bilgilerini güncelleyebilirsiniz. [ Yanında * olanlar zorunludur. ]";
+
         }
 
         private void txtCepTel_PreviewTextInput(object sender, TextCompositionEventArgs e)

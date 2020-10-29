@@ -42,6 +42,8 @@ namespace StokTakipUygulamasi
             txtIndirimsizFiyat.Text = gelen_urunler[2];
             txtStokAdedi.Text = gelen_urunler[3];
 
+            txtBilgiPenceresi.Text = "Bu sayfadan bir ürünü indirime ekleyebilirsiniz. [ Yanında * olanlar zorunludur. ]";
+
         }
 
         private void btnKapat_Click(object sender, RoutedEventArgs e)

@@ -44,7 +44,13 @@ namespace StokTakipUygulamasi
             cmb_UrunOlcuBirimi = Genel.OlcuBirimleri(cmb_UrunOlcuBirimi);
             cmb_UrunOlcuBirimi.SelectedItem = cek[7];
             if (Convert.ToInt32(cek[8]) == 1)
-            
+            {
+                checkbox_satistami.IsChecked = true;
+            }
+            else
+            {
+                checkbox_satistami.IsChecked = false;
+            }
             txtOlcuMiktar.Text = cek[9];
 
             if (!string.IsNullOrEmpty(cek[10]))
@@ -55,8 +61,8 @@ namespace StokTakipUygulamasi
                 img.EndInit();
                 img_UrunResmi.Source = img;   // resmi burada değiştiriyoruz.
             }
-           
 
+            txtBilgiPenceresi.Text = $"Bu sayfadan {txtUrunAdi} isimli ürünün bilgilerini güncelleyebilirsiniz. [ Yanında * olanlar zorunludur. ]";
         }
 
         private void txtKDVOrani_PreviewTextInput(object sender, TextCompositionEventArgs e)
@@ -187,9 +193,17 @@ namespace StokTakipUygulamasi
                 veri.Aciklama = txtAciklama.Text;
                 veri.Barkod_No = txtBarkodNo.Text;
                 veri.Resim = Prm.ResimAdi;
-               
+                veri.Satista_Mi = checkbox_satistami.IsEnabled;
                 veri.KritikDurum = Convert.ToInt32(txtKritikDurum.Text);
-            
+                if (checkbox_satistami.IsChecked.Value)
+                {
+                    veri.Satista_Mi = true;
+                }
+                else
+                {
+                    veri.Satista_Mi = false;
+                }
+
                 if (txtOlcuMiktar.Text == "")
                 {
                     veri.Olcu_Miktar = null;
@@ -227,15 +241,19 @@ namespace StokTakipUygulamasi
                 }
                 if (Urunler.UrunuGuncelle(veri,veri.ID))
                 {
-
-                    string sorgu_SatistaOlmayanUrunler = ($@"select u.ID, u.Urun_Adi,u.Barkod_No,u.Aciklama,u.KDV_Orani,u.Kar_Orani,u.Satis_Fiyati,u.Satista_mi,
-                                    ob.Olcu_Birimi,u.Olcu_Miktar, s.Eldeki_Miktar,u.Kritik_Durum
-                                    from stoktakipuygulamasi.urunler u
-                                    left join stoktakipuygulamasi.olcu_birimi ob on u.Olcu_Birimi_ID = ob.ID
-                                    left join stoktakipuygulamasi.stok s on s.Urun_ID = u.ID
-                                    Where u.Satista_Mi = 1");
-                    Genel.GridiDoldurGenel(grid, sorgu_SatistaOlmayanUrunler);
-                   
+                    if (Prm.checkbox_Satista_Olanlar == false)
+                    {
+                        string sorgu_SatistaOlanUrunler = ($@"select u.ID, u.Urun_Adi,u.Barkod_No,u.Aciklama,u.KDV_Orani,u.Kar_Orani,u.Satis_Fiyati,u.Satista_mi, ob.Olcu_Birimi 
+                                    from urunler u  join olcu_birimi ob on u.Olcu_Birimi_ID = ob.ID  Where u.Satista_Mi=0");
+                        Genel.GridiDoldurGenel(grid,sorgu_SatistaOlanUrunler);
+                    }
+                    else
+                    {
+                        string sorgu_SatistaOlmayanUrunler = ($@"select u.ID, u.Urun_Adi,u.Barkod_No,u.Aciklama,u.KDV_Orani,u.Kar_Orani,u.Satis_Fiyati,u.Satista_mi, ob.Olcu_Birimi 
+                                    from urunler u  join olcu_birimi ob on u.Olcu_Birimi_ID = ob.ID  Where u.Satista_Mi=1");
+                        Genel.GridiDoldurGenel(grid, sorgu_SatistaOlmayanUrunler);
+                    }
+                    
                     Prm.Hata = 0;
                     Prm.BilgiMesajiAlani = "Ürün başarıyla güncellendi...";
                     BilgiEkrani be = new BilgiEkrani();

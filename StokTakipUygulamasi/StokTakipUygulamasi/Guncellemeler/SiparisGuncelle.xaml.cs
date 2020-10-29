@@ -60,6 +60,7 @@ namespace StokTakipUygulamasi
             OlcüMiktariComboox.IsEnabled = false;
             ToptancıAdiComBox.IsEnabled = false;
 
+            txtBilgiPenceresi.Text = $"Bu sayfadan {UrunAdiComBox} isimli ürünün sipariş bilgilerini güncelleyebilirsiniz. [ Yanında * olanlar zorunludur. ]";
         }
 
 

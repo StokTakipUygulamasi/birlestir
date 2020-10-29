@@ -28,7 +28,26 @@ namespace StokTakipUygulamasi.UserController
         public ucIndirimdekiler()
         {
             InitializeComponent();
-           
+
+            if (Genel.listedeArama(Prm.oturumCalisanAltYetkiListesi, "8") == false)
+            {
+                btnIndirimliUrunEkle.Visibility = Visibility.Collapsed;
+            }
+            if (Genel.listedeArama(Prm.oturumCalisanAltYetkiListesi, "7") == false)
+            {
+                dtg_IndirimdekilerListesi.Visibility = Visibility.Collapsed;
+                check_Indirimde_Olmayanlar.Visibility = Visibility.Collapsed;
+            }
+            if (Genel.listedeArama(Prm.oturumCalisanAltYetkiListesi, "9") == false)
+            {
+                btnGuncelle.Visibility = Visibility.Collapsed;
+            }
+            if (Genel.listedeArama(Prm.oturumCalisanAltYetkiListesi, "10") == false)
+            {
+                btnCikar.Visibility = Visibility.Collapsed;
+            }
+
+          
         }
 
         private void UserControl_Loaded(object sender, RoutedEventArgs e)

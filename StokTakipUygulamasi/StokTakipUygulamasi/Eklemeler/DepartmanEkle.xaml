@@ -1,0 +1,154 @@
+﻿<Window x:Class="StokTakipUygulamasi.Eklemeler.DepartmanEkle"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StokTakipUygulamasi.Eklemeler"
+        mc:Ignorable="d"
+        Title="DepartmanEkle" Height="700" Width="900" Background="{x:Null}" AllowsTransparency="True" WindowStyle="None" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Canvas>
+            <Image Source="/images/icons/ekle.png" Canvas.Left="90" Height="58" Canvas.Top="41" Width="54" Panel.ZIndex="3
+                   "/>
+            <Label Content="DEPARTMAN EKLEME PENCERESİ" FontWeight="Bold" FontSize="18" Canvas.Left="173" Canvas.Top="23" Panel.ZIndex="3" Foreground="#FFF6EDED" Height="35" VerticalAlignment="Center" HorizontalAlignment="Center" Style="{DynamicResource Label_yanip_sonme_efekti}"/>
+            <!--İçindeki nesneleri sürükleyebiliyoruz-->
+            <Rectangle Height="35" Width="502" Canvas.Left="103" Canvas.Top="23" Fill="#FF134187" Panel.ZIndex="1"/>
+            <Ellipse Height="118" Width="115" Canvas.Left="58" Canvas.Top="10" Panel.ZIndex="2" StrokeThickness="4" RenderTransformOrigin="0.5,0.5" Style="{DynamicResource donme_efekti}">
+                <Ellipse.RenderTransform>
+                    <RotateTransform/>
+                </Ellipse.RenderTransform>
+                <Ellipse.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF134187" Offset="0.997"/>
+                        <GradientStop Color="#FFFCFCFC" Offset="0.89"/>
+                        <GradientStop Color="#FFF0F2F6" Offset="0.913"/>
+                        <GradientStop Color="#FF90A5C6" Offset="0.957"/>
+                    </LinearGradientBrush>
+                </Ellipse.Fill>
+                <Ellipse.Stroke>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF134187" Offset="0"/>
+                        <GradientStop Color="White" Offset="0.713"/>
+                        <GradientStop Color="#FF4B6EA3" Offset="0.93"/>
+                        <GradientStop Color="White" Offset="0.35"/>
+                    </LinearGradientBrush>
+                </Ellipse.Stroke>
+            </Ellipse>
+
+            <Border Width="502" Height="600" Canvas.Left="103" Canvas.Top="23" CornerRadius="0,0,50,50" Background="#FFE0E0E0">
+                <Border.Effect>
+                    <DropShadowEffect Opacity="0.35" Direction="275"/>
+                </Border.Effect>
+                <DataGrid x:Name="dtg_AltYetkiler" ItemsSource="{Binding}" Background="{x:Null}" BorderBrush="{x:Null}" 
+                      Foreground="#FF042263" IsReadOnly="True" RowHeight="30" CanUserAddRows="False" CanUserSortColumns="True" 
+                      CanUserReorderColumns="False" CanUserResizeRows="False"
+                      HorizontalGridLinesBrush="#FF989B9B" VerticalGridLinesBrush="#FFBBBBBB" HeadersVisibility="Column" 
+                      AutoGenerateColumns="False" Style="{DynamicResource DataGridStyle}" Margin="48,133,45.4,65">
+                    <!--
+                <DataGrid.Resources>
+                    <Style TargetType="{x:Type DataGridRow}">
+                        <EventSetter Event="Control.MouseDoubleClick" Handler="dtg_UrunlerListesi_MouseDoubleClick"/>
+                    </Style>
+                </DataGrid.Resources>
+                -->
+
+                    <DataGrid.Columns>
+
+                        <DataGridTextColumn Binding="{Binding ID}" IsReadOnly="True" Header="ID" MaxWidth="2">
+                            <DataGridTextColumn.ElementStyle>
+                                <Style TargetType="{x:Type TextBlock}">
+                                    <Setter Property="HorizontalAlignment" Value="Left"/>
+                                    <Setter Property="VerticalAlignment" Value="Center"/>
+                                    <Setter Property="Padding" Value="5"/>
+                                    <Setter Property="FontSize" Value="0.1"/>
+                                </Style>
+                            </DataGridTextColumn.ElementStyle>
+
+                            <DataGridTextColumn.CellStyle>
+                                <Style TargetType="{x:Type DataGridCell}">
+                                    <Setter Property="Background" Value="#2e61af"/>
+                                    <Setter Property="BorderBrush" Value="#FF134187"/>
+                                    <Setter Property="BorderThickness" Value="0,0,0,0"/>
+                                    <Setter Property="Foreground" Value="White"/>
+
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTextColumn  Width="350" Binding="{Binding Yetki}" IsReadOnly="True" Header="Yetki" MinWidth="80" TextBlock.TextAlignment="Center" TextElement.FontStretch="Expanded">
+                            <DataGridTextColumn.ElementStyle>
+                                <Style TargetType="{x:Type TextBlock}">
+                                    <Setter Property="HorizontalAlignment" Value="Left"/>
+                                    <Setter Property="VerticalAlignment" Value="Center"/>
+                                    <Setter Property="Padding" Value="5"/>
+                                </Style>
+                            </DataGridTextColumn.ElementStyle>
+
+                            <DataGridTextColumn.CellStyle>
+                                <Style TargetType="{x:Type DataGridCell}">
+                                    <Setter Property="Background" Value="#2e61af"/>
+                                    <Setter Property="BorderBrush" Value="#FF134187"/>
+                                    <Setter Property="BorderThickness" Value="5,0,0,0"/>
+                                    <Setter Property="Foreground" Value="White"/>
+
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+
+                    <DataGridTemplateColumn Header="Secim">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <CheckBox Width="20" Height="20"  Margin="10,0,10,0" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+
+
+
+
+
+
+
+
+                    </DataGrid.Columns>
+
+
+
+                </DataGrid>
+            </Border>
+
+            <!--Textbox ve label'lar-->
+            <Label Content="Departman Kodu: *" Canvas.Left="204" Canvas.Top="94" FontWeight="Bold"/>
+            <TextBox MaxLength="255" Width="150" Height="24" Canvas.Left="353" Canvas.Top="94" x:Name="txtDepartmanKodu" FontSize="18" Style="{DynamicResource MouseOverImageChange_Textbox}"/>
+
+            <Label Content="Departman Adı: *" Canvas.Left="214" Canvas.Top="123" FontWeight="Bold"/>
+            <TextBox Width="150" Canvas.Left="353" Canvas.Top="123" Height="25" x:Name="txtDepartmanAdi" FontSize="18" Style="{DynamicResource MouseOverImageChange_Textbox}"/>
+
+
+
+            <Button Style="{DynamicResource UrunEkleButonu}" Width="414" Height="39" Content="Departmanı Ekle"  Canvas.Left="151" Margin="0" Canvas.Top="576" x:Name="btnDepartmaniEkle" Click="btnDepartmaniEkle_Click"></Button>
+            <ToggleButton Style="{DynamicResource DaireButonbilgi}" Canvas.Left="559" Canvas.Top="17" Panel.ZIndex="3" x:Name="btn_Bilgi" Click="btn_Bilgi_Click"/>
+            <Button Style="{DynamicResource DaireButonCikis}" Panel.ZIndex="3" Canvas.Left="504" Canvas.Top="17" x:Name="btnKapat" Click="btnKapat_Click" BorderBrush="#FFEAEBF4" BorderThickness="2"/>
+
+            <Border Grid.Row="0" Margin="5,3,3,0"/>
+
+
+            <Grid Height="318" Width="366" Canvas.Left="484" Canvas.Top="17">
+                <Popup Placement="Center" x:Name="popup_bilgi" AllowsTransparency="True" PopupAnimation="Scroll">
+                    <Border Background="DarkBlue" Height="179" Width="225" CornerRadius="0,20,30,30">
+                        <StackPanel Margin="7">
+                            <TextBlock Text="Bilgilendirme Metni" Foreground="White" FontWeight="Bold" FontSize="22" HorizontalAlignment="Center"/>
+                            <TextBlock x:Name="txtBilgiPenceresi" TextWrapping="Wrap" Foreground="white" Margin="0,10,0,0"/>
+                        </StackPanel>
+                    </Border>
+
+                </Popup>
+
+
+            </Grid>
+
+
+        </Canvas>
+    </Grid>
+</Window>

@@ -26,13 +26,13 @@ namespace StokTakipUygulamasi
     public partial class UrunEkle : Window
     {
         DataGrid grid;
-        CheckBox checkBox;
-        public UrunEkle(DataGrid gelen_grid, CheckBox checkBox)
+        public UrunEkle(DataGrid gelen_grid)
         {
-            this.checkBox = checkBox;
             this.grid = gelen_grid;
             InitializeComponent();
             cmb_UrunOlcuBirimi = Genel.OlcuBirimleri(cmb_UrunOlcuBirimi);
+
+            txtBilgiPenceresi.Text = "Bu sayfadan yeni bir ürün ekleyebilirsiniz. [ Yanında * olanlar zorunludur. ]";
         }
        
         private void btnKapat_Click(object sender, RoutedEventArgs e)
@@ -92,18 +92,6 @@ namespace StokTakipUygulamasi
        
         private void btn_Urunu_Ekle_Click(object sender, RoutedEventArgs e)
         {
-
-            string değişken = Genel.tekilVeriCekmeString($@"select Urun_Adi FROM stoktakipuygulamasi.urunler where Urun_Adi = '{txtUrunAdi.Text}' and Olcu_Miktar = '{Convert.ToInt32(txtOlcuMiktari.Text)}'", "Urun_Adi");
-            MessageBox.Show(değişken);
-          if (değişken == "")
-            {
-                MessageBox.Show("Ürün Yok");
-            }
-            else
-            {
-                MessageBox.Show("Ürün Var");
-            }
-         
             if (txtUrunAdi.Text != "" && cmb_UrunOlcuBirimi.Text != "" && txtOlcuMiktari.Text != ""  && txtKritikUyari.Text != "" )
             {
                 Prm veri = new Prm();
@@ -156,76 +144,44 @@ namespace StokTakipUygulamasi
                 }
 
 
-                if (Genel.tekilVeriCekmeString($@"select Urun_Adi FROM stoktakipuygulamasi.urunler where Urun_Adi = '{txtUrunAdi.Text}' and Olcu_Miktar = '{Convert.ToInt32(txtOlcuMiktari.Text)}'", "Urun_Adi") == "")
+                //ucUrunler uc = new ucUrunler();
+                if (Urunler.UrunEkle(veri))
                 {
-                    //ucUrunler uc = new ucUrunler();
-                    if (Urunler.UrunEkle(veri))
-                    {
-
-                        Prm veriStok = new Prm();
-                        veriStok.Olcu_Birimi_ID = Genel.tekilVeriCekmeInt(sorgu_olcuBirimiID, "ID");
-                        veriStok.UrunID = Genel.tekilVeriCekmeInt($@"select ID from urunler where Urun_Adi = '{txtUrunAdi.Text}'", "ID");
-                        veriStok.Stok_EldekiMiktar = 0;
-                        veriStok.Stok_Toplam_Cikis = 0;
-                        veriStok.Stok_Toplam_Giris = 0;
-                        string sorgu_Urunler = "";
-
-
-
-                        if (Stok.StokaEkle(veriStok))
-                        {
-
-                            if (checkbox_satistami.IsChecked.Value)
-                            {
-                                checkBox.IsChecked = false;
-                                sorgu_Urunler = ($@"select u.ID, u.Urun_Adi,u.Barkod_No,u.Aciklama,u.KDV_Orani,u.Kar_Orani,u.Satis_Fiyati,u.Satista_mi,
+                    Prm veriStok = new Prm();
+                    veriStok.Olcu_Birimi_ID = Genel.tekilVeriCekmeInt(sorgu_olcuBirimiID, "ID");
+                    veriStok.UrunID = Genel.tekilVeriCekmeInt($@"select ID from urunler where Urun_Adi = '{txtUrunAdi.Text}'","ID");
+                    veriStok.Stok_EldekiMiktar = 330;
+                    veriStok.Stok_Toplam_Cikis = 200;
+                    veriStok.Stok_Toplam_Giris = 500;
+                    if (Stok.StokaEkle(veri))
+                    {/*
+                        string sorgu_SatistaOlanUrunler = ($@"select u.ID, u.Urun_Adi,u.Barkod_No,u.Aciklama,u.KDV_Orani,u.Kar_Orani,u.Satis_Fiyati,u.Satista_mi, ob.Olcu_Birimi,u.Olcu_Miktar 
+                                    from urunler u  join olcu_birimi ob on u.Olcu_Birimi_ID = ob.ID  Where u.Satista_Mi=1");
+                                    */
+                        string sorgu_SatistaOlanUrunler = ($@"select u.ID, u.Urun_Adi,u.Barkod_No,u.Aciklama,u.KDV_Orani,u.Kar_Orani,u.Satis_Fiyati,u.Satista_mi,
                                     ob.Olcu_Birimi,u.Olcu_Miktar, s.Eldeki_Miktar,u.Kritik_Durum
                                     from stoktakipuygulamasi.urunler u  
                                     left join stoktakipuygulamasi.olcu_birimi ob on u.Olcu_Birimi_ID = ob.ID
                                     left join stoktakipuygulamasi.stok s on s.Urun_ID = u.ID
                                     Where u.Satista_Mi= 1");
-                            }
-                            else
-                            {
-                                checkBox.IsChecked = true;
-                                sorgu_Urunler = ($@"select u.ID, u.Urun_Adi,u.Barkod_No,u.Aciklama,u.KDV_Orani,u.Kar_Orani,u.Satis_Fiyati,u.Satista_mi,
-                                    ob.Olcu_Birimi,u.Olcu_Miktar, s.Eldeki_Miktar,u.Kritik_Durum
-                                    from urunler u  
-                                    left join olcu_birimi ob on u.Olcu_Birimi_ID = ob.ID
-                                    left join stok s on s.Urun_ID = u.ID
-                                    Where u.Satista_Mi= 0");
-                            }
 
-                            Genel.GridiDoldurGenel(grid, sorgu_Urunler);
-                            Prm.Hata = 0;
-                            Prm.BilgiMesajiAlani = "Ürün başarıyla eklendi...";
-                            BilgiEkrani be = new BilgiEkrani();
-                            be.Show();
-                            this.Close();
-
-
-                        }
-
-
-
-
-                    }
-                    else
-                    {
-                        Prm.Hata = 1;
-                        Prm.BilgiMesajiAlani = "Veritabanına eklenirken bir sorun oldu!";
+                        Genel.GridiDoldurGenel(grid, sorgu_SatistaOlanUrunler);
+                        Prm.Hata = 0;
+                        Prm.BilgiMesajiAlani = "Ürün başarıyla eklendi...";
                         BilgiEkrani be = new BilgiEkrani();
                         be.Show();
+                        this.Close();
                     }
                 }
                 else
                 {
                     Prm.Hata = 1;
-                    Prm.BilgiMesajiAlani = "Eklemek istediğiniz ürün sistemimizde var";
+                    Prm.BilgiMesajiAlani = "Veritabanına eklenirken bir sorun oldu!";
                     BilgiEkrani be = new BilgiEkrani();
                     be.Show();
                 }
 
+                
             }
             else
             {
@@ -234,7 +190,17 @@ namespace StokTakipUygulamasi
                 BilgiEkrani be = new BilgiEkrani();
                 be.Show();
             }
+
+
+
+
+
+
+
+
+
             
+
         }
 
 
@@ -298,28 +264,6 @@ namespace StokTakipUygulamasi
             }
         }
 
-        private void User_Kontrol(object sender, RoutedEventArgs e)
-        {
-            checkbox_satistami.IsChecked = true;
-        }
-
-        private void cmb_UrunOlcuBirimi_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
-
-        private void txt_UrunAdi_SelectionChanged(object sender, RoutedEventArgs e)
-        {
-            String OlcuBirimiAdi = Genel.tekilVeriCekmeString($@"SELECT  o.Olcu_Birimi FROM stoktakipuygulamasi.urunler u 
-             left join stoktakipuygulamasi.olcu_birimi o on u.Olcu_Birimi_ID = o.ID where u.Urun_Adi = '{txtUrunAdi.Text}'", "Olcu_Birimi");
-            if (OlcuBirimiAdi != "")
-            {
-                cmb_UrunOlcuBirimi.Items.Refresh();
-                cmb_UrunOlcuBirimi.Text = OlcuBirimiAdi;
-                
-                
-            }
-
-        }
+     
     }
 }

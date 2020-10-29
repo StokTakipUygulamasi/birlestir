@@ -26,6 +26,8 @@ namespace StokTakipUygulamasi.Eklemeler
         {
             InitializeComponent();
             this.grid = gelen_grid;
+
+            txtBilgiPenceresi.Text = "Bu sayfadan yeni bir toptancı ekleyebilirsiniz. [ Yanında * olanlar zorunludur. ]";
         }
 
         private void txtCepTel_PreviewTextInput(object sender, TextCompositionEventArgs e)

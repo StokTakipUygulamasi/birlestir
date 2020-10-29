@@ -146,7 +146,7 @@
 
         <!-- Sol Menü (menubutonlar) -->
         <Border Background="DarkBlue" Grid.Column="0" Grid.Row="1">
-            <StackPanel>
+            <UniformGrid Columns="1">
                 <!-- Alt alta sıralanır -->
                 <ToggleButton  Style="{DynamicResource menubutonlar}" x:Name="menubuton_anasayfa" Click="menubuton_anasayfa_Click">
                     <DockPanel  Width="220" Margin="15,0,0,0">
@@ -226,7 +226,7 @@
                     </Border>
                 </Canvas>
 
-            </StackPanel>
+            </UniformGrid>
         </Border>
 
 

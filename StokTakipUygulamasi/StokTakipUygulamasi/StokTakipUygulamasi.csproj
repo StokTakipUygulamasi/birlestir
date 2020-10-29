@@ -101,21 +101,27 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Class\Calisanlar.cs" />
-    <Compile Include="Class\Fatura.cs" />
+    <Compile Include="Class\Departmanlar.cs" />
+    <Compile Include="Class\HizliSatis.cs" />
     <Compile Include="Class\Indirimler.cs" />
     <Compile Include="Class\Musteriler.cs" />
+    <Compile Include="Class\OlcuBirimleri.cs" />
     <Compile Include="Class\Siparisler.cs" />
     <Compile Include="Class\Stok.cs" />
     <Compile Include="Class\Toptancilar.cs" />
-    <Compile Include="Class\UrunAlis.cs" />
     <Compile Include="Class\Urunler.cs" />
-    <Compile Include="Class\UrunSatis.cs" />
     <Compile Include="Class\Veresiyeler.cs" />
     <Compile Include="Eklemeler\CalisanEkle.xaml.cs">
       <DependentUpon>CalisanEkle.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Eklemeler\DepartmanEkle.xaml.cs">
+      <DependentUpon>DepartmanEkle.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Eklemeler\MusteriEkle.xaml.cs">
       <DependentUpon>MusteriEkle.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Eklemeler\OlcuBirimiEkle.xaml.cs">
+      <DependentUpon>OlcuBirimiEkle.xaml</DependentUpon>
     </Compile>
     <Compile Include="Eklemeler\ToptanciEkle.xaml.cs">
       <DependentUpon>ToptanciEkle.xaml</DependentUpon>
@@ -123,17 +129,20 @@
     <Compile Include="Guncellemeler\CalisanGuncelleme.xaml.cs">
       <DependentUpon>CalisanGuncelleme.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Guncellemeler\DepartmanGuncelleme.xaml.cs">
+      <DependentUpon>DepartmanGuncelleme.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Guncellemeler\MusteriGuncelleme.xaml.cs">
       <DependentUpon>MusteriGuncelleme.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Guncellemeler\OlcuBirimiGuncelleme.xaml.cs">
+      <DependentUpon>OlcuBirimiGuncelleme.xaml</DependentUpon>
     </Compile>
     <Compile Include="Guncellemeler\ToptanciGuncelle.xaml.cs">
       <DependentUpon>ToptanciGuncelle.xaml</DependentUpon>
     </Compile>
     <Compile Include="Guncellemeler\VeresiyeBorcOdeme.xaml.cs">
       <DependentUpon>VeresiyeBorcOdeme.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="iadeUrunler.xaml.cs">
-      <DependentUpon>iadeUrunler.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pencereler\Anasayfa.xaml.cs">
       <DependentUpon>Anasayfa.xaml</DependentUpon>
@@ -169,20 +178,29 @@
     <Compile Include="Pencereler\Grafik.xaml.cs">
       <DependentUpon>Grafik.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pencereler\hizliSatisUrunleri.xaml.cs">
+      <DependentUpon>hizliSatisUrunleri.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pencereler\MusteriAyarlari.xaml.cs">
       <DependentUpon>MusteriAyarlari.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pencereler\MusteriSec.xaml.cs">
-      <DependentUpon>MusteriSec.xaml</DependentUpon>
+    <Compile Include="Pencereler\OlcuBirimleriEkleCikar.xaml.cs">
+      <DependentUpon>OlcuBirimleriEkleCikar.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pencereler\SiparisSilmePenceresi.xaml.cs">
       <DependentUpon>SiparisSilmePenceresi.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pencereler\TeknikDestek.xaml.cs">
+      <DependentUpon>TeknikDestek.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pencereler\ToptanciSilmePenceresi.xaml.cs">
       <DependentUpon>ToptanciSilmePenceresi.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pencereler\VeresiyeDetay.xaml.cs">
       <DependentUpon>VeresiyeDetay.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pencereler\YetkiAyarlari.xaml.cs">
+      <DependentUpon>YetkiAyarlari.xaml</DependentUpon>
     </Compile>
     <Compile Include="UserController\SatisYap.xaml.cs">
       <DependentUpon>SatisYap.xaml</DependentUpon>
@@ -202,17 +220,11 @@
     <Compile Include="UserController\ucToptancilar.xaml.cs">
       <DependentUpon>ucToptancilar.xaml</DependentUpon>
     </Compile>
-    <Compile Include="UserController\ucUrunAlis.xaml.cs">
-      <DependentUpon>ucUrunAlis.xaml</DependentUpon>
-    </Compile>
     <Compile Include="UserController\ucUrunler.xaml.cs">
       <DependentUpon>ucUrunler.xaml</DependentUpon>
     </Compile>
     <Compile Include="UserController\ucAnasayfa.xaml.cs">
       <DependentUpon>ucAnasayfa.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="UserController\ucUrunSatis.xaml.cs">
-      <DependentUpon>ucUrunSatis.xaml</DependentUpon>
     </Compile>
     <Compile Include="UserController\ucVeresiyeler.xaml.cs">
       <DependentUpon>ucVeresiyeler.xaml</DependentUpon>
@@ -221,7 +233,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Eklemeler\DepartmanEkle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Eklemeler\MusteriEkle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Eklemeler\OlcuBirimiEkle.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -233,7 +253,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Guncellemeler\DepartmanGuncelleme.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Guncellemeler\MusteriGuncelleme.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Guncellemeler\OlcuBirimiGuncelleme.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -242,10 +270,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Guncellemeler\VeresiyeBorcOdeme.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="iadeUrunler.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -301,15 +325,23 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pencereler\hizliSatisUrunleri.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pencereler\MusteriAyarlari.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pencereler\MusteriSec.xaml">
+    <Page Include="Pencereler\OlcuBirimleriEkleCikar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pencereler\SiparisSilmePenceresi.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pencereler\TeknikDestek.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -318,6 +350,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pencereler\VeresiyeDetay.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pencereler\YetkiAyarlari.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -345,19 +381,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="UserController\ucUrunAlis.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="UserController\ucUrunler.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UserController\ucAnasayfa.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="UserController\ucUrunSatis.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -463,11 +491,22 @@
     <Content Include="audios\popupAudio.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Resource Include="images\icons\carpi2.png" />
-    <Resource Include="images\icons\carpi1.png" />
-    <Resource Include="images\icons\para.png" />
-    <Resource Include="images\icons\kredikarti.png" />
-    <Resource Include="images\icons\barkod_okuyucu.png" />
+    <Resource Include="images\icons\detay.png" />
+    <Resource Include="images\icons\sil.png" />
+    <Resource Include="images\icons\guncelle.png" />
+    <Resource Include="images\icons\ekle.png" />
+    <Resource Include="images\icons\calisanGuncelle.png" />
+    <Resource Include="images\icons\siparisEkle.png" />
+    <Resource Include="images\icons\olcuBirimiEkle.png" />
+    <Resource Include="images\icons\musteriEkle.png" />
+    <Resource Include="images\icons\indirimEkle.png" />
+    <Resource Include="images\icons\departmanEkle.png" />
+    <Resource Include="images\icons\calisanEkle.png" />
+    <Resource Include="images\icons\hizliSatisBeyaz.png" />
+    <Resource Include="images\icons\hizliSatis.png" />
+    <Resource Include="images\icons\dosyaAc.png" />
+    <Resource Include="images\icons\teknikDestek_mavi.png" />
+    <Resource Include="images\icons\yetki_ayarlar.png" />
     <Resource Include="images\icons\calisan_ayarlar.png" />
     <Resource Include="images\icons\toptancilar.png" />
     <Resource Include="images\icons\musteri_ayarlar.png" />

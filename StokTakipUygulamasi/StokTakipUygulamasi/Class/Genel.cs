@@ -8,6 +8,8 @@ using MySql.Data.MySqlClient;
 using System.Windows;
 using System.Windows.Controls;
 using StokTakipUygulamasi.Class.Parametreler;
+using System.Net.Mail;
+using System.Net;
 
 namespace StokTakipUygulamasi
 {
@@ -74,42 +76,91 @@ namespace StokTakipUygulamasi
 
         }
 
-        [Obsolete]
+
         public void girisYap(string kadi, string sifre, Window w)
         {
-            
-            cmd = new MySqlCommand($@"Select * from calisanlar where Kadi='{kadi}' and Sifre='{sifre}'", baglan);
+            cmd = new MySqlCommand($@"Select c.ID,c.Ad,c.Soyad,c.Calisan_No,c.TC,c.Kadi,c.Sifre,c.Foto,c.Adres,c.Giris_IPv6_Ethernet, c.Giris_IPv6_Wireless, c.Silindi_Mi,c.Silinme_Aciklamasi,cy.Yetki_ID
+ from calisanlar c left join calisan_yetki cy on c.ID=cy.Calisan_ID where Kadi='{kadi}' and Sifre='{sifre}'", baglan);
             baglan.Open();
             reader = cmd.ExecuteReader();
             if (reader.Read())
             {
-                MessageBox.Show("Giriş Başarılı!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
-                Anasayfa ana = new Anasayfa();
-                ana.Show();
-                w.Close();
+                string girisyapilanip = Dns.GetHostAddresses(Dns.GetHostName())[0].ToString(); // ipv6
+                if (girisyapilanip != reader["Giris_IPv6_Ethernet"].ToString() && girisyapilanip != reader["Giris_IPv6_Wireless"].ToString())
+                {
+                    MessageBox.Show("IP'ler uyuşmuyor!","Hata",MessageBoxButton.OK,MessageBoxImage.Warning);
+                }
+                else
+                {
+                    Prm.oturumCalisanID = reader["ID"].ToString();
+                    Prm.oturumCalisanAd = reader["Ad"].ToString();
+                    Prm.oturumCalisanSoyad = reader["Soyad"].ToString();
+                    Prm.oturumCalisanNo = reader["Calisan_No"].ToString();
+                    Prm.oturumCalisanTC = reader["TC"].ToString();
+                    Prm.oturumCalisanKadi = reader["Kadi"].ToString();
+                    //Prm.oturumCalisanSifre = reader["Sifre"].ToString();
+                    Prm.oturumCalisanFoto = reader["Foto"].ToString();
+                    Prm.oturumCalisanAdres = reader["Adres"].ToString();
+                    Prm.oturumCalisanGirisIP = reader["Giris_IPv6_Ethernet"].ToString();
+                    Prm.oturumCalisanDepartmanID = reader["Yetki_ID"].ToString();
+                    Prm.oturumCalisanGirisIPv6 = reader["Giris_IPv6_Wireless"].ToString();
+                    baglan.Dispose();
+                    MySqlCommand cmdAltYetkiler = new MySqlCommand($@"Select * from yetkiler_altyetkiler where Yetkiler_ID='{Prm.oturumCalisanID}'", baglan);
+                    baglan.Open();
+                    reader = cmdAltYetkiler.ExecuteReader();
+                    List<string> liste = new List<string>();
+                    while (reader.Read())
+                    {
+                       liste.Add(reader["AltYetkiler_ID"].ToString());
+                    }
+                    Prm.oturumCalisanAltYetkiListesi = liste;
+                    baglan.Dispose();
+                    Anasayfa ana = new Anasayfa();
+                    ana.Show();
+                    w.Close();
+                }
             }
             else
             {
-                MessageBox.Show("Giriş Başarısız!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Kullanıcı adı veya şifre hatalı", "Hata", MessageBoxButton.OK, MessageBoxImage.Error);
+                baglan.Dispose();
             }
-            baglan.Close();
+            baglan.Dispose();
+
+           
         }
+
+
+        public static bool listedeArama(List<string> liste, string arananDeger)
+        {
+            bool donen = false;
+            foreach (var item in liste)
+            {
+                if (item == arananDeger)
+                {
+                    donen = true;
+                    break;
+                }
+            }
+
+            return donen;
+        } // Altyetki listesinde değer arama fonksiyonu. Başka listeler için de kullanılabilir.
 
         public static bool GridiDoldurGenel(DataGrid grd, String sorgu)
         {
        
-            sbyte i = 0;
+            bool donen = false;
             
             cmd = new MySqlCommand(sorgu, baglan);
-            baglan.Open();
             try
             {
+                baglan.Open();
                 adapter = new MySqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
                 adapter.Fill(dt);
                 grd.ItemsSource = null;
                 grd.ItemsSource = dt.DefaultView;
-                i = 1;
+                donen = true;
             }
             catch (Exception e)
             {
@@ -120,14 +171,7 @@ namespace StokTakipUygulamasi
                 baglan.Dispose();
             }
 
-            if (i > 0)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            return donen;
 
         }   
 
@@ -241,7 +285,7 @@ namespace StokTakipUygulamasi
             return istenenSonuc;
         }
 
-        public static List<string> cokluVeriCekme(String sorgu, List<string> istenenDeger, int eleman_sayisi)
+        public static List<string> cokluVeriCekme(String sorgu, List<string> istenenDeger)
         {
             List<string> liste = new List<string>();
             cmd = new MySqlCommand(sorgu, baglan);
@@ -249,21 +293,11 @@ namespace StokTakipUygulamasi
             {
                 baglan.Open();
                 reader = cmd.ExecuteReader();
-                /*
                 foreach (var item in istenenDeger)
                 {
                     liste.Add(reader[item].ToString());
                 }
-                */
-                
-                if (reader.Read())
-                {
-                    for (int i = 0; i < istenenDeger.Count; i++)
 
-                    {
-                        liste.Add(reader[i].ToString());
-                    }
-                }
 
             }
             catch (Exception ex)
@@ -314,34 +348,10 @@ namespace StokTakipUygulamasi
             }
 
         }
-        public static List<String> TekUrunTümListeCek(String sorgu, string istenenDeger)
-        {
-            List<String> liste = new List<string>();
-
-            cmd = new MySqlCommand(sorgu, baglan);
-            try
-            {
-                baglan.Open();
-                reader = cmd.ExecuteReader();
-                while (reader.Read())
-                {
-                    liste.Add(reader[istenenDeger].ToString());
-                }
 
 
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($@"Hata: {ex.ToString()}");
-            }
-            finally
-            {
-                baglan.Dispose();
-            }
 
-            return liste;
-        }
-
+       
 
     }
 }

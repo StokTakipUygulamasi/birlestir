@@ -8,7 +8,7 @@
         Title="ToptanciSilmePenceresi" Height="374.8" Width="677.6" Background="{x:Null}" AllowsTransparency="True" WindowStyle="None" WindowStartupLocation="CenterScreen">
     <Grid>
         <Canvas>
-            <Image Source="/images/icons/urunEkle.png" Canvas.Left="90" Height="58" Canvas.Top="41" Width="54" Panel.ZIndex="3
+            <Image Source="/images/icons/sil.png" Canvas.Left="90" Height="58" Canvas.Top="41" Width="54" Panel.ZIndex="3
                    "/>
             <Label Content="TOPTANCI SİLME PENCERESİ" FontWeight="Bold" FontSize="18" Canvas.Left="173" Canvas.Top="23" Panel.ZIndex="3" Foreground="#FFF6EDED" Height="35" VerticalAlignment="Center" HorizontalAlignment="Center" Style="{DynamicResource Label_yanip_sonme_efekti}"/>
             <!--İçindeki nesneleri sürükleyebiliyoruz-->

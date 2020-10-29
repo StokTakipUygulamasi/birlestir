@@ -30,6 +30,8 @@ namespace StokTakipUygulamasi.Pencereler
         {
             InitializeComponent();
             veri.Veresiye_ID = veresiye_ID;
+
+            txtBilgiPenceresi.Text = "Bu sayfadan veresiyenin detaylarına ulaşabilirsiniz.";
         }
 
         private void btnKapat_Click(object sender, RoutedEventArgs e)

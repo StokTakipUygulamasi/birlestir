@@ -31,6 +31,7 @@ namespace StokTakipUygulamasi.Pencereler
             this.UrunId = UrunId;
             InitializeComponent();
             txtUyariYazi.Content = UrunAdi + " siparişini silme nedeniz? (İsteğe bağlı)";
+            txtBilgiPenceresi.Text = "Bu sayfadan verilen siparişi silebilirsiniz.";
         }
 
         private void btn_Bilgi_Click(object sender, RoutedEventArgs e)

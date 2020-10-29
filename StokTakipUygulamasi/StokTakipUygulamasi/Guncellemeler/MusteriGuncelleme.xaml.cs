@@ -45,6 +45,8 @@ namespace StokTakipUygulamasi.Guncellemeler
             txtFaxNo.Text = liste[10];
             veri.MusteriGrubuID = Convert.ToInt32(liste[11]);
 
+            txtBilgiPenceresi.Text = $"Bu sayfadan {txtMusteriAdi} isimli müşterinin bilgilerini güncelleyebilirsiniz. [ Yanında * olanlar zorunludur. ]";
+
         }
 
         private void btn_MusteriyiGuncelle_Click(object sender, RoutedEventArgs e)

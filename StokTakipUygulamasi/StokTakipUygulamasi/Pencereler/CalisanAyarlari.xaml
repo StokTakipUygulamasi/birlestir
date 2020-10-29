@@ -121,7 +121,19 @@
                             </DataGridTextColumn.ElementStyle>
                         </DataGridTextColumn>
 
-                        <DataGridTextColumn Width="180" Binding="{Binding Giris_IP}" IsReadOnly="True" Header="Giriş IP" MinWidth="80" TextBlock.TextAlignment="Center" TextElement.FontStretch="Expanded" CanUserReorder="False">
+                        <DataGridTextColumn Width="180" Binding="{Binding Giris_IPv6_Ethernet}" IsReadOnly="True" Header="Giriş IPv6 Kablolu" MinWidth="80" TextBlock.TextAlignment="Center" TextElement.FontStretch="Expanded" CanUserReorder="False">
+                            <DataGridTextColumn.ElementStyle>
+                                <Style TargetType="{x:Type TextBlock}">
+                                    <Setter Property="HorizontalAlignment" Value="Left"/>
+                                    <Setter Property="VerticalAlignment" Value="Center"/>
+                                    <Setter Property="Padding" Value="5,0,0,0"/>
+                                    <Setter Property="TextWrapping" Value="Wrap"/>
+                                    <Setter Property="TextAlignment" Value="Justify"/>
+                                </Style>
+                            </DataGridTextColumn.ElementStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTextColumn Width="180" Binding="{Binding Giris_IPv6_Wireless}" IsReadOnly="True" Header="Giriş IPv6 Kablosuz" MinWidth="80" TextBlock.TextAlignment="Center" TextElement.FontStretch="Expanded" CanUserReorder="False">
                             <DataGridTextColumn.ElementStyle>
                                 <Style TargetType="{x:Type TextBlock}">
                                     <Setter Property="HorizontalAlignment" Value="Left"/>

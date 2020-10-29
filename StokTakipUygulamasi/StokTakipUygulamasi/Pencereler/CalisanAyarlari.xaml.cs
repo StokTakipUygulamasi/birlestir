@@ -26,10 +26,10 @@ namespace StokTakipUygulamasi.Pencereler
         Anasayfa gk = (Anasayfa)Application.Current.Windows.OfType<Window>().SingleOrDefault(x => x.IsActive);
         string id;
         string aktifCalisanlarSorgusu = "select c.ID, concat (c.Ad,' ',c.Soyad) Calisan_AdSoyad, c.TC, c.Kadi, c.Foto, c.Adres, " +
-               "c.Giris_IP, cb.Tel, cb.E_mail, y.Yetki from calisanlar c left join calisan_bilgileri cb on c.ID = cb.Calisan_ID " +
+               "c.Giris_IPv6_Ethernet, c.Giris_IPv6_Wireless, cb.Tel, cb.E_mail, y.Yetki from calisanlar c left join calisan_bilgileri cb on c.ID = cb.Calisan_ID " +
                "left join calisan_yetki cy on cy.Calisan_ID = c.ID left join yetkiler y on y.ID = cy.Yetki_ID where c.Silindi_Mi=0 ";
         string silinenCalisanlarSorgusu = "select c.ID, concat (c.Ad,' ',c.Soyad) Calisan_AdSoyad, c.TC, c.Kadi, c.Foto, c.Adres, " +
-               "c.Giris_IP, cb.Tel, cb.E_mail, y.Yetki from calisanlar c left join calisan_bilgileri cb on c.ID = cb.Calisan_ID " +
+               "c.Giris_IPv6_Ethernet, c.Giris_IPv6_Wireless, cb.Tel, cb.E_mail, y.Yetki from calisanlar c left join calisan_bilgileri cb on c.ID = cb.Calisan_ID " +
                "left join calisan_yetki cy on cy.Calisan_ID = c.ID left join yetkiler y on y.ID = cy.Yetki_ID where c.Silindi_Mi=1 ";
         public CalisanAyarlari()
         {
@@ -37,6 +37,8 @@ namespace StokTakipUygulamasi.Pencereler
            
             Genel.GridiDoldurGenel(dtg_CalisanListesi,aktifCalisanlarSorgusu);
             btnGeriAl.Visibility = Visibility.Hidden;
+
+            txtBilgiPenceresi.Text = $"Bu sayfadan çalışanlara ilişkin bilgilere ulaşabilir, eski çalışanları görüntüleyebilir, çalışanların bilgilerini güncelleyebilir, çalışanı silebilir/geri alabilir ya da yeni bir çalışan ekleyebilirsiniz.";
 
         }
 

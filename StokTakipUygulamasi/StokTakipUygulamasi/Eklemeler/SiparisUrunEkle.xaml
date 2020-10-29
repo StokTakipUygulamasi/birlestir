@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:StokTakipUygulamasi"
         mc:Ignorable="d"
-       Title="UrunEkle" Height="400" Width="900" AllowsTransparency="True" WindowStyle="None" 
+       Title="UrunEkle" Height="400" Width="1100" AllowsTransparency="True" WindowStyle="None" 
         WindowStartupLocation="CenterOwner" ResizeMode="NoResize" Background="{x:Null}">
     <Grid>
 
         <Canvas>
-            <Image Source="images/icons/urunEkle.png" Canvas.Left="90" Height="58" Canvas.Top="41" Width="54" Panel.ZIndex="3" ></Image>
+            <Image Source="/images/icons/ekle.png" Canvas.Left="90" Height="58" Canvas.Top="41" Width="54" Panel.ZIndex="3" ></Image>
 
             <Label Content="SİPARİSLERE ÜRÜN EKLEME PENCERESİ" FontWeight="Bold" FontSize="18" Canvas.Left="173" Canvas.Top="23" Panel.ZIndex="3" Foreground="#FFF6EDED" Height="35" VerticalAlignment="Center" HorizontalAlignment="Center" Style="{DynamicResource Label_yanip_sonme_efekti}"/>
 
@@ -67,7 +67,7 @@
 
             <Button Panel.ZIndex="3" Style="{DynamicResource DaireButon}" Canvas.Left="557" Canvas.Top="220"  x:Name="btnResimEkle"/>
 
-            <Image Panel.ZIndex="2" x:Name="img_UrunResmi" Source="images/icons/resimAlani.png" Width="116" Height="166" Canvas.Left="480" Canvas.Top="86"/>
+            <Image Panel.ZIndex="2" x:Name="img_UrunResmi" Source="/images/icons/resimAlani.png" Width="116" Height="166" Canvas.Left="480" Canvas.Top="86"/>
 
 
 
@@ -81,7 +81,7 @@
                     <Border Background="DarkBlue" Height="179" Width="225" CornerRadius="0,20,30,30">
                         <StackPanel Margin="7">
                             <TextBlock Text="Bilgilendirme Metni" Foreground="White" FontWeight="Bold" FontSize="22" HorizontalAlignment="Center"/>
-                            <TextBlock Text="Bilgi metni buraya gelecek&#10; İkinci satır&#10; Üçüncü satır" Foreground="white" Margin="0,10,0,0"/>
+                            <TextBlock x:Name="txtBilgiPenceresi" TextWrapping="Wrap" Foreground="white" Margin="0,10,0,0"/>
                         </StackPanel>
                     </Border>
 

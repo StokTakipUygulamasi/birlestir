@@ -61,9 +61,9 @@ namespace StokTakipUygulamasi.Guncellemeler
             }
             txtCepTel.Text = calisanBilgileriCek[8];
             txtCalisanEmail.Text = calisanBilgileriCek[9];
-            
-            
 
+
+            txtBilgiPenceresi.Text = $"Bu sayfadan {txtCalisanAdi} isimli çalışanın bilgilerini güncelleyebilirsiniz. [ Yanında * olanlar zorunludur. ]";
 
         }
 

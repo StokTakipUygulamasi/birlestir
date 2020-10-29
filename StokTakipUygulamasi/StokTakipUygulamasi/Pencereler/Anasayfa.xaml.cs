@@ -1,4 +1,5 @@
-﻿using StokTakipUygulamasi.Class;
+﻿using MySqlX.XDevAPI;
+using StokTakipUygulamasi.Class;
 using StokTakipUygulamasi.Class.Parametreler;
 using StokTakipUygulamasi.UserController;
 using System;
@@ -17,6 +18,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
+
 namespace StokTakipUygulamasi
 {
     /// <summary>
@@ -30,7 +32,42 @@ namespace StokTakipUygulamasi
             InitializeComponent();
             //this.MaxWidth = SystemParameters.MaximizedPrimaryScreenWidth;
             //this.MaxHeight = SystemParameters.MaximizedPrimaryScreenHeight; Ekranın dışına kayma anlamına gelir
-           
+
+            if (Genel.listedeArama(Prm.oturumCalisanAltYetkiListesi,"7") == false)
+            {
+                menubuton_indirimdekiler.Visibility = Visibility.Collapsed;
+            }
+
+            if (Genel.listedeArama(Prm.oturumCalisanAltYetkiListesi, "20") == false)
+            {
+                btnUrunler.Visibility = Visibility.Collapsed;
+            }
+
+            if (Genel.listedeArama(Prm.oturumCalisanAltYetkiListesi, "11") == false)
+            {
+                menubuton_siparisler.Visibility = Visibility.Collapsed;
+            }
+
+            if (Genel.listedeArama(Prm.oturumCalisanAltYetkiListesi, "25") == false)
+            {
+                menubuton_veresiye.Visibility = Visibility.Collapsed;
+            }
+
+            if (Genel.listedeArama(Prm.oturumCalisanAltYetkiListesi, "30") == false)
+            {
+                menubuton_kritikurunler.Visibility = Visibility.Collapsed;
+            }
+
+            if (Genel.listedeArama(Prm.oturumCalisanAltYetkiListesi, "31") == false)
+            {
+                menubuton_toptancilar.Visibility = Visibility.Collapsed;
+            }
+
+            if (Genel.listedeArama(Prm.oturumCalisanAltYetkiListesi, "49") == false)
+            {
+                menubuton_ayarlar.Visibility = Visibility.Collapsed;
+            }
+
         }
 
         private void btnKapat_Click(object sender, RoutedEventArgs e)
@@ -186,7 +223,6 @@ namespace StokTakipUygulamasi
 
         private void btnUrunAlis_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            uc_cagir.uc_Ekle(Content_Icerik, new ucUrunAlis());
             secimDurumu = 9;
             secilenDurum();
         }

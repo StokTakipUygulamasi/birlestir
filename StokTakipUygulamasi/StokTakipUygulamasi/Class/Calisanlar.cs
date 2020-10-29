@@ -287,5 +287,7 @@ namespace StokTakipUygulamasi
                 return false;
             }
         }
+
+      
     }
 }

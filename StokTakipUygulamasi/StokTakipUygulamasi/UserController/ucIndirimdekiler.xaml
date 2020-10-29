@@ -186,7 +186,7 @@
         </Border>
 
         <Border Grid.Row="1">
-            <DockPanel>
+            <DockPanel x:Name="dockpanel_indirimekle_cikar">
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
                     <Button Style="{DynamicResource UrunEkleButonu}" Width="90" Height="50" Content="Güncelle"  x:Name="btnGuncelle"  Margin="10,25,0,25" Click="btnGuncelle_Click" ></Button>
                     <Button Style="{DynamicResource UrunEkleButonu}" Width="90" Height="50" Content="Çıkar"  x:Name="btnCikar" Margin="10,25,0,25" Click="btnCikar_Click" ></Button>

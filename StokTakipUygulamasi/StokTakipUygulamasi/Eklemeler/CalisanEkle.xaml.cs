@@ -37,7 +37,7 @@ namespace StokTakipUygulamasi.Eklemeler
             string yetkiCekmeSorgusu = "Select * from yetkiler";
             Genel.ComboBoxVeriCekme(cmbYetki,yetkiCekmeSorgusu,"Yetki");
             cmbYetki.SelectedItem = "Genel";
-            txtBilgiYazisi.Text = "Yanında * olan alanlar zorunludur";
+            txtBilgiPenceresi.Text = "Bu sayfadan çalışan ekleyebilirsiniz. [ Yanında * olan alanlar zorunludur ]";
         }
 
         private void btn_Bilgi_Click(object sender, RoutedEventArgs e)

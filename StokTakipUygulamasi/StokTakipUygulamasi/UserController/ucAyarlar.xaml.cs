@@ -1,4 +1,5 @@
-﻿using StokTakipUygulamasi.Eklemeler;
+﻿using StokTakipUygulamasi.Class.Parametreler;
+using StokTakipUygulamasi.Eklemeler;
 using StokTakipUygulamasi.Pencereler;
 using System;
 using System.Collections.Generic;
@@ -26,6 +27,43 @@ namespace StokTakipUygulamasi.UserController
         public ucAyarlar()
         {
             InitializeComponent();
+            if (Genel.listedeArama(Prm.oturumCalisanAltYetkiListesi, "42") == false)
+            {
+                btn_MusteriEkleCikar.Visibility = Visibility.Collapsed;
+            }
+
+            if (Genel.listedeArama(Prm.oturumCalisanAltYetkiListesi, "43") == false)
+            {
+                btn_CalisanEkleCikar.Visibility = Visibility.Collapsed;
+            }
+
+            if (Genel.listedeArama(Prm.oturumCalisanAltYetkiListesi, "44") == false)
+            {
+                btn_FirmaBilgileri.Visibility = Visibility.Collapsed;
+            }
+
+            if (Genel.listedeArama(Prm.oturumCalisanAltYetkiListesi, "45") == false)
+            {
+                btn_YetkiDuzenleme.Visibility = Visibility.Collapsed;
+            }
+
+            if (Genel.listedeArama(Prm.oturumCalisanAltYetkiListesi, "46") == false)
+            {
+                btn_OlcuBirimiEkleCikar.Visibility = Visibility.Collapsed;
+            }
+
+            if (Genel.listedeArama(Prm.oturumCalisanAltYetkiListesi, "47") == false)
+            {
+                hizliSatisAyarlari.Visibility = Visibility.Collapsed;
+            }
+
+            if (Genel.listedeArama(Prm.oturumCalisanAltYetkiListesi, "48") == false)
+            {
+                btn_TeknikDestekAl.Visibility = Visibility.Collapsed;
+            }
+
+
+
         }
         #region ToggleButonlar
         int secimDurumu;
@@ -57,19 +95,39 @@ namespace StokTakipUygulamasi.UserController
         {
             secimDurumu = 4;
             secilenDurum();
+            YetkiAyarlari ya = new YetkiAyarlari();
+            ya.Owner = gk;
+            ya.ShowDialog();
         }
 
         private void btn_OlcuBirimiEkleCikar_Click(object sender, RoutedEventArgs e)
         {
             secimDurumu = 5;
             secilenDurum();
+            OlcuBirimleriEkleCikar obec = new OlcuBirimleriEkleCikar();
+            obec.Owner = gk;
+            obec.ShowDialog();
+        }
+
+        private void hizliSatisAyarlari_Click(object sender, RoutedEventArgs e)
+        {
+            secimDurumu = 6;
+            secilenDurum();
+            hizliSatisUrunleri hsu = new hizliSatisUrunleri();
+            hsu.Owner = gk;
+            hsu.ShowDialog();
         }
 
         private void btn_TeknikDestekAl_Click(object sender, RoutedEventArgs e)
         {
-            secimDurumu = 9;
+            secimDurumu = 7;
             secilenDurum();
+            TeknikDestek td = new TeknikDestek();
+            td.Owner = gk;
+            td.ShowDialog();
         }
+
+        
 
         void secilenDurum()
         {
@@ -129,35 +187,7 @@ namespace StokTakipUygulamasi.UserController
             {
                 btn_OlcuBirimiEkleCikar.IsChecked = false;
             }
-
             if (secimDurumu == 6)
-            {
-
-            }
-            else
-            {
-
-            }
-
-            if (secimDurumu == 7)
-            {
-
-            }
-            else
-            {
-
-            }
-
-            if (secimDurumu == 8)
-            {
-
-            }
-            else
-            {
-
-            }
-
-            if (secimDurumu == 9)
             {
                 btn_TeknikDestekAl.IsChecked = true;
             }
@@ -167,8 +197,9 @@ namespace StokTakipUygulamasi.UserController
             }
            
         }
+
         #endregion
 
-      
+        
     }
 }

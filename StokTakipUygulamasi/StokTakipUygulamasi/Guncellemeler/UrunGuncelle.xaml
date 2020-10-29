@@ -9,7 +9,7 @@
     <Grid>
         <Canvas>
             <Canvas>
-                <Image Source="/images/icons/urunEkle.png" Canvas.Left="90" Height="58" Canvas.Top="41" Width="54" Panel.ZIndex="3
+                <Image Source="/images/icons/guncelle.png" Canvas.Left="90" Height="58" Canvas.Top="41" Width="54" Panel.ZIndex="3
                    "/>
                 <Label Content="ÜRÜN GÜNCELLEME PENCERESİ" FontWeight="Bold" FontSize="18" Canvas.Left="173" Canvas.Top="23" Panel.ZIndex="3" Foreground="#FFF6EDED" Height="35" VerticalAlignment="Center" HorizontalAlignment="Center" Style="{DynamicResource Label_yanip_sonme_efekti}"/>
                 <!--İçindeki nesneleri sürükleyebiliyoruz-->
@@ -71,7 +71,7 @@
 
 
 
-                <Button Style="{DynamicResource UrunEkleButonu}" Width="289" Height="38" Content="Ürünü Güncelle"  Canvas.Left="297" Margin="0" Canvas.Top="368" x:Name="btn_Urunu_Guncelle" Click="btn_Urunu_Guncelle_Click"/>
+                <Button Style="{DynamicResource UrunEkleButonu}" Width="289" Height="38" Content="Ürünü Güncelle"  Canvas.Left="297" Margin="0" Canvas.Top="397" x:Name="btn_Urunu_Guncelle" Click="btn_Urunu_Guncelle_Click"/>
                 <ToggleButton Style="{DynamicResource DaireButonbilgi}" Canvas.Left="757" Canvas.Top="17" Panel.ZIndex="3" x:Name="btn_Bilgi" Click="btn_Bilgi_Click"/>
                 <Button Style="{DynamicResource DaireButonCikis}" Panel.ZIndex="3" Canvas.Left="699" Canvas.Top="17" x:Name="btnKapat" Click="btnKapat_Click" BorderBrush="#FFEAEBF4" BorderThickness="2"/>
 
@@ -82,7 +82,7 @@
                         <Border Background="DarkBlue" Height="179" Width="225" CornerRadius="0,20,30,30">
                             <StackPanel Margin="7">
                                 <TextBlock Text="Bilgilendirme Metni" Foreground="White" FontWeight="Bold" FontSize="22" HorizontalAlignment="Center"/>
-                                <TextBlock Text="Bilgi metni buraya gelecek&#10; İkinci satır&#10; Üçüncü satır" Foreground="white" Margin="0,10,0,0"/>
+                                <TextBlock x:Name="txtBilgiPenceresi" TextWrapping="Wrap" Foreground="white" Margin="0,10,0,0"/>
                             </StackPanel>
                         </Border>
 
@@ -91,11 +91,12 @@
 
                 </Grid>
                 <TextBox TextWrapping="Wrap" Width="289" Height="52" Canvas.Left="296" Canvas.Top="156" x:Name="txtAciklama" FontSize="18" Style="{DynamicResource MouseOverImageChange_Textbox}"/>
-
-                <Label Content="Ölçü Miktarı:" Canvas.Left="200" Canvas.Top="308" FontWeight="Bold"/>
-                <TextBox TextWrapping="Wrap" Width="289" Height="24" Canvas.Left="296" Canvas.Top="308" x:Name="txtOlcuMiktar" FontSize="18" Style="{DynamicResource MouseOverImageChange_Textbox}" PreviewTextInput="txtOlcuMiktar_PreviewTextInput"/>
-                <Label Content="KritikDurum" Canvas.Left="200" Canvas.Top="338" FontWeight="Bold"/>
-                <TextBox TextWrapping="Wrap" Width="289" Height="24" Canvas.Left="296" Canvas.Top="338" x:Name="txtKritikDurum" FontSize="18" Style="{DynamicResource MouseOverImageChange_Textbox}" PreviewTextInput="txtKritikDurum_PreviewTextInput"/>
+                <Label Content="Satışta Mı:" Canvas.Left="200" Canvas.Top="301" FontWeight="Bold"/>
+                <CheckBox x:Name="checkbox_satistami" Width="15" Height="15" RenderTransformOrigin="25.013,13.84" Canvas.Left="296" Canvas.Top="308"/>
+                <Label Content="Ölçü Miktarı:" Canvas.Left="200" Canvas.Top="332" FontWeight="Bold"/>
+                <TextBox TextWrapping="Wrap" Width="289" Height="24" Canvas.Left="296" Canvas.Top="332" x:Name="txtOlcuMiktar" FontSize="18" Style="{DynamicResource MouseOverImageChange_Textbox}" PreviewTextInput="txtOlcuMiktar_PreviewTextInput"/>
+                <Label Content="KritikDurum" Canvas.Left="200" Canvas.Top="362" FontWeight="Bold"/>
+                <TextBox TextWrapping="Wrap" Width="289" Height="24" Canvas.Left="296" Canvas.Top="362" x:Name="txtKritikDurum" FontSize="18" Style="{DynamicResource MouseOverImageChange_Textbox}" PreviewTextInput="txtKritikDurum_PreviewTextInput"/>
 
             </Canvas>
         </Canvas>

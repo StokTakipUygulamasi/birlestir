@@ -28,6 +28,27 @@ namespace StokTakipUygulamasi.UserController
         {
             InitializeComponent();
             btnToptanciyiGeriAl.Visibility = Visibility.Hidden;
+            if (Genel.listedeArama(Prm.oturumCalisanAltYetkiListesi, "31") == false)
+            {
+                dtg_ToptancilarListesi.Visibility = Visibility.Collapsed;
+                check_Eski_Toptancilarim.Visibility = Visibility.Collapsed;
+            }
+
+            if (Genel.listedeArama(Prm.oturumCalisanAltYetkiListesi, "32") == false)
+            {
+                btn_Toptanci_Ekle.Visibility = Visibility.Collapsed;
+            }
+
+            if (Genel.listedeArama(Prm.oturumCalisanAltYetkiListesi, "33") == false)
+            {
+                btnGuncelle.Visibility = Visibility.Collapsed;
+            }
+
+            if (Genel.listedeArama(Prm.oturumCalisanAltYetkiListesi, "34") == false)
+            {
+                btnSil.Visibility = Visibility.Collapsed;
+            }
+
         }
 
         Anasayfa gk = (Anasayfa)Application.Current.Windows.OfType<Window>().SingleOrDefault(x => x.IsActive);
